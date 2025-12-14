@@ -1,0 +1,170 @@
+[
+    {
+        "code": "catholic",
+        "EN": "Catholic",
+        "CN": "天主教",
+        "ES": ""
+    },
+    {
+        "code": "protestant",
+        "EN": "Protestant",
+        "CN": "新教",
+        "ES": ""
+    },
+    {
+        "code": "hussite",
+        "EN": "Hussite",
+        "CN": "胡斯教派",
+        "ES": ""
+    },
+    {
+        "code": "reformed",
+        "EN": "Reformed",
+        "CN": "改革宗",
+        "ES": ""
+    },
+    {
+        "code": "anglican",
+        "EN": "Anglican",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "orthodox",
+        "EN": "Orthodox",
+        "CN": "东正教",
+        "ES": ""
+    },
+    {
+        "code": "coptic",
+        "EN": "Coptic",
+        "CN": "科普特",
+        "ES": ""
+    },
+    {
+        "code": "sunni",
+        "EN": "Sunni",
+        "CN": "逊尼",
+        "ES": ""
+    },
+    {
+        "code": "shiite",
+        "EN": "Shia",
+        "CN": "什叶",
+        "ES": ""
+    },
+    {
+        "code": "ibadi",
+        "EN": "Ibadi",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "buddhism",
+        "EN": "Theravada",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "vajrayana",
+        "EN": "Vajrayana",
+        "CN": "藏传佛教",
+        "ES": ""
+    },
+    {
+        "code": "mahayana",
+        "EN": "",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "confucianism",
+        "EN": "Confucian",
+        "CN": "儒教",
+        "ES": ""
+    },
+    {
+        "code": "shinto",
+        "EN": "Shinto",
+        "CN": "神道教",
+        "ES": ""
+    },
+    {
+        "code": "hinduism",
+        "EN": "Hindu",
+        "CN": "印度教",
+        "ES": ""
+    },
+    {
+        "code": "sikhism",
+        "EN": "Sikh",
+        "CN": "锡克教",
+        "ES": ""
+    },
+    {
+        "code": "animism",
+        "EN": "Animist",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "shamanism",
+        "EN": "Fetishist",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "totemism",
+        "EN": "Totemist",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "inti",
+        "EN": "Inti",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "nahuatl",
+        "EN": "Nahuatl",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "mesoamerican_religion",
+        "EN": "Mayan",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "norse_pagan_reformed",
+        "EN": "Norse",
+        "CN": "诺斯",
+        "ES": ""
+    },
+    {
+        "code": "tengri_pagan_reformed",
+        "EN": "Tengri",
+        "CN": "",
+        "ES": ""
+    },
+    {
+        "code": "jewish",
+        "EN": "Jewish",
+        "CN": "犹太教",
+        "ES": ""
+    },
+    {
+        "code": "zoroastrian",
+        "EN": "Zoroastrian",
+        "CN": "草莓教",
+        "ES": ""
+    },
+    {
+        "code": "dreamtime",
+        "EN": "Alcheringa",
+        "CN": "",
+        "ES": ""
+    }
+]

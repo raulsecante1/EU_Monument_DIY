@@ -1,0 +1,836 @@
+[
+    {
+        "relative_path": "great_project_afaq_khoja_mausoleum.dds",
+        "EN": "Afaq Khoja Mausoleum",
+        "CN": "阿帕克和卓麻札",
+        "ES": "Mausoleo de Afaq Khoja"
+    },
+    {
+        "relative_path": "great_project_ait_benhaddou.dds",
+        "EN": "Ait Benhaddou",
+        "CN": "阿伊特·本·哈杜",
+        "ES": "Ait Benhaddou"
+    },
+    {
+        "relative_path": "great_project_alhambra.dds",
+        "EN": "Alhambra",
+        "CN": "阿尔罕布拉宫",
+        "ES": "Alhambra"
+    },
+    {
+        "relative_path": "great_project_aljaferia_palace.dds",
+        "EN": "Aljafería Palace",
+        "CN": "阿尔哈费里亚宫",
+        "ES": "Palacio de la Aljafería"
+    },
+    {
+        "relative_path": "great_project_al_azhar_university.dds",
+        "EN": "Al-Azhar University",
+        "CN": "爱资哈尔大学",
+        "ES": "Universidad de Al-Azhar"
+    },
+    {
+        "relative_path": "great_project_ambras_castle.dds",
+        "EN": "Ambras Castle",
+        "CN": "安布拉斯城堡",
+        "ES": "Castillo de Ambras"
+    },
+    {
+        "relative_path": "great_project_amsterdam_bourse.dds",
+        "EN": "Amsterdam Bourse",
+        "CN": "阿姆斯特丹证券交易所",
+        "ES": "Bolsa de Ámsterdam"
+    },
+    {
+        "relative_path": "great_project_angkor_wat.dds",
+        "EN": "Angkor Wat",
+        "CN": "吴哥窟",
+        "ES": "Angkor Wat"
+    },
+    {
+        "relative_path": "great_project_bagan_temples.dds",
+        "EN": "Bagan Temples",
+        "CN": "蒲甘佛塔",
+        "ES": "Templos de Bagan"
+    },
+    {
+        "relative_path": "great_project_baiturrahman_grand_mosque.dds",
+        "EN": "Baiturrahman Grand Mosque",
+        "CN": "拜图拉赫曼大清真寺",
+        "ES": "Gran Mezquita Baiturrahman"
+    },
+    {
+        "relative_path": "great_project_bam_citadel.dds",
+        "EN": "Bam Citadel",
+        "CN": "巴姆城堡",
+        "ES": "Ciudadela de Bam"
+    },
+    {
+        "relative_path": "great_project_bara_katra.dds",
+        "EN": "Bara Katra",
+        "CN": "巴拉卡特拉",
+        "ES": "Bara Katra"
+    },
+    {
+        "relative_path": "great_project_belem_tower.dds",
+        "EN": "Belém Tower",
+        "CN": "贝伦塔",
+        "ES": "Torre de Belém"
+    },
+    {
+        "relative_path": "great_project_borobudur_temple.dds",
+        "EN": "Borobudur Temple",
+        "CN": "婆罗浮屠",
+        "ES": "Templo de Borobudur"
+    },
+    {
+        "relative_path": "great_project_brandenburg_gate.dds",
+        "EN": "Brandenburg Gate",
+        "CN": "勃兰登堡门",
+        "ES": "Puerta de Brandeburgo"
+    },
+    {
+        "relative_path": "great_project_bran_castle.dds",
+        "EN": "Bran Castle",
+        "CN": "布朗城堡",
+        "ES": "Castillo de Bran"
+    },
+    {
+        "relative_path": "great_project_buda_castle.dds",
+        "EN": "Buda Castle",
+        "CN": "布达城堡",
+        "ES": "Castillo de Buda"
+    },
+    {
+        "relative_path": "great_project_buddha_statues.dds",
+        "EN": "Buddha Statues",
+        "CN": "佛像",
+        "ES": "Estatuas de Buda"
+    },
+    {
+        "relative_path": "great_project_cahokia.dds",
+        "EN": "Cahokia",
+        "CN": "卡霍基亚",
+        "ES": "Cahokia"
+    },
+    {
+        "relative_path": "great_project_cartagena_de_indias.dds",
+        "EN": "Cartagena de Indias",
+        "CN": "卡塔赫纳",
+        "ES": "Cartagena de Indias"
+    },
+    {
+        "relative_path": "great_project_chan_chan_citadel.dds",
+        "EN": "Chan Chan Citadel",
+        "CN": "昌昌古城",
+        "ES": "Ciudadela de Chan Chan"
+    },
+    {
+        "relative_path": "great_project_chichen_itza.dds",
+        "EN": "Chichen Itza",
+        "CN": "奇琴伊察",
+        "ES": "Chichén Itzá"
+    },
+    {
+        "relative_path": "great_project_chola_temples.dds",
+        "EN": "Chola Temples",
+        "CN": "朱罗神庙",
+        "ES": "Templos Chola"
+    },
+    {
+        "relative_path": "great_project_churches_lalibela.dds",
+        "EN": "Churches of Lalibela",
+        "CN": "拉利贝拉岩石教堂",
+        "ES": "Iglesias de Lalibela"
+    },
+    {
+        "relative_path": "great_project_citadel_of_aleppo.dds",
+        "EN": "Citadel of Aleppo",
+        "CN": "阿勒颇城堡",
+        "ES": "Ciudadela de Alepo"
+    },
+    {
+        "relative_path": "great_project_city_of_sanaa.dds",
+        "EN": "City of Sana'a",
+        "CN": "萨那古城",
+        "ES": "Ciudad de Saná"
+    },
+    {
+        "relative_path": "great_project_city_of_sarai.dds",
+        "EN": "City of Sarai",
+        "CN": "萨莱城",
+        "ES": "Ciudad de Sarai"
+    },
+    {
+        "relative_path": "great_project_cologne_cathedral.dds",
+        "EN": "Cologne Cathedral",
+        "CN": "科隆大教堂",
+        "ES": "Catedral de Colonia"
+    },
+    {
+        "relative_path": "great_project_divrigi.dds",
+        "EN": "Divriği",
+        "CN": "迪夫里伊大清真寺和医院",
+        "ES": "Divriği"
+    },
+    {
+        "relative_path": "great_project_doges_palace.dds",
+        "EN": "Doge's Palace",
+        "CN": "总督宫",
+        "ES": "Palacio Ducal"
+    },
+    {
+        "relative_path": "great_project_dujiangyan.dds",
+        "EN": "Dujiangyan",
+        "CN": "都江堰",
+        "ES": "Dujiangyan"
+    },
+    {
+        "relative_path": "great_project_duomo_milano.dds",
+        "EN": "Duomo di Milano",
+        "CN": "米兰大教堂",
+        "ES": "Catedral de Milán"
+    },
+    {
+        "relative_path": "great_project_dutch_polders.dds",
+        "EN": "Dutch Polders",
+        "CN": "荷兰圩田",
+        "ES": "Pólderes Holandeses"
+    },
+    {
+        "relative_path": "great_project_easter_island_statues.dds",
+        "EN": "Easter Island Statues",
+        "CN": "复活节岛石像",
+        "ES": "Estatuas de la Isla de Pascua"
+    },
+    {
+        "relative_path": "great_project_Edinburgh.dds",
+        "EN": "Edinburgh",
+        "CN": "爱丁堡",
+        "ES": "Edimburgo"
+    },
+    {
+        "relative_path": "great_project_ellora_caves.dds",
+        "EN": "Ellora Caves",
+        "CN": "埃洛拉石窟",
+        "ES": "Cuevas de Ellora"
+    },
+    {
+        "relative_path": "great_project_el_escorial.dds",
+        "EN": "El Escorial",
+        "CN": "埃斯科里亚尔修道院",
+        "ES": "El Escorial"
+    },
+    {
+        "relative_path": "great_project_erdene_zuu.dds",
+        "EN": "Erdene Zuu",
+        "CN": "额尔德尼召",
+        "ES": "Erdene Zuu"
+    },
+    {
+        "relative_path": "great_project_etchimiadzin_cathedral.dds",
+        "EN": "Etchmiadzin Cathedral",
+        "CN": "埃奇米阿津主教座堂",
+        "ES": "Catedral de Echmiadzin"
+    },
+    {
+        "relative_path": "great_project_falun_copper_mine.dds",
+        "EN": "Falun Copper Mine",
+        "CN": "法伦铜矿",
+        "ES": "Mina de Cobre de Falun"
+    },
+    {
+        "relative_path": "great_project_fire_temple_of_ateshgah.dds",
+        "EN": "Fire Temple of Ateshgah",
+        "CN": "阿特什伽火庙",
+        "ES": "Templo de Fuego de Ateshgah"
+    },
+    {
+        "relative_path": "great_project_forbidden_city.dds",
+        "EN": "Forbidden City",
+        "CN": "紫禁城",
+        "ES": "Ciudad Prohibida"
+    },
+    {
+        "relative_path": "great_project_fuerte_del_morro.dds",
+        "EN": "Fuerte del Morro",
+        "CN": "莫罗堡垒",
+        "ES": "Fuerte del Morro"
+    },
+    {
+        "relative_path": "great_project_golden_kremnica.dds",
+        "EN": "Golden Kremnica",
+        "CN": "克雷姆尼察金矿",
+        "ES": "Kremnica Dorada"
+    },
+    {
+        "relative_path": "great_project_golden_temple.dds",
+        "EN": "Golden Temple",
+        "CN": "金庙",
+        "ES": "Templo Dorado"
+    },
+    {
+        "relative_path": "great_project_golestan_palace.dds",
+        "EN": "Golestan Palace",
+        "CN": "古列斯坦宫",
+        "ES": "Palacio de Golestán"
+    },
+    {
+        "relative_path": "great_project_gomateshwara_statue.dds",
+        "EN": "Gomateshwara Statue",
+        "CN": "戈玛特斯瓦拉雕像",
+        "ES": "Estatua de Gomateshwara"
+    },
+    {
+        "relative_path": "great_project_grand_canal.dds",
+        "EN": "Grand Canal",
+        "CN": "大运河",
+        "ES": "Gran Canal"
+    },
+    {
+        "relative_path": "great_project_great_mosque_djenne.dds",
+        "EN": "Great Mosque of Djenné",
+        "CN": "杰内大清真寺",
+        "ES": "Gran Mezquita de Djenné"
+    },
+    {
+        "relative_path": "great_project_gyeongbok_palace.dds",
+        "EN": "Gyeongbok Palace",
+        "CN": "景福宫",
+        "ES": "Palacio Gyeongbok"
+    },
+    {
+        "relative_path": "great_project_hagia_sophia.dds",
+        "EN": "Hagia Sophia",
+        "CN": "圣索菲亚大教堂",
+        "ES": "Santa Sofía"
+    },
+    {
+        "relative_path": "great_project_hampi.dds",
+        "EN": "Hampi",
+        "CN": "亨比",
+        "ES": "Hampi"
+    },
+    {
+        "relative_path": "great_project_harar_jugol.dds",
+        "EN": "Harar Jugol",
+        "CN": "哈勒尔城墙",
+        "ES": "Harar Jugol"
+    },
+    {
+        "relative_path": "great_project_heddal_stave_church.dds",
+        "EN": "Heddal Stave Church",
+        "CN": "海达尔木板教堂",
+        "ES": "Iglesia de madera de Heddal"
+    },
+    {
+        "relative_path": "great_project_himeji_castle.dds",
+        "EN": "Himeji Castle",
+        "CN": "姬路城",
+        "ES": "Castillo de Himeji"
+    },
+    {
+        "relative_path": "great_project_holy_city_jerusalem.dds",
+        "EN": "Holy City of Jerusalem",
+        "CN": "圣城耶路撒冷",
+        "ES": "Ciudad Santa de Jerusalén"
+    },
+    {
+        "relative_path": "great_project_holy_city_kairouan.dds",
+        "EN": "Holy City of Kairouan",
+        "CN": "圣城凯鲁万",
+        "ES": "Ciudad Santa de Kairuán"
+    },
+    {
+        "relative_path": "great_project_imam_hussein_al-abbas.dds",
+        "EN": "Imam Hussein and Al-Abbas Shrines",
+        "CN": "伊玛目侯赛因和阿巴斯圣地",
+        "ES": "Santuarios del Imam Hussein y Al-Abbas"
+    },
+    {
+        "relative_path": "great_project_imperial_city_hue.dds",
+        "EN": "Imperial City of Hue",
+        "CN": "顺化皇城",
+        "ES": "Ciudad Imperial de Hue"
+    },
+    {
+        "relative_path": "great_project_inukshuk.dds",
+        "EN": "Inukshuk",
+        "CN": "伊努伊特石堆",
+        "ES": "Inukshuk"
+    },
+    {
+        "relative_path": "great_project_itchan_kala.dds",
+        "EN": "Itchan Kala",
+        "CN": "伊钦内城",
+        "ES": "Itchan Kala"
+    },
+    {
+        "relative_path": "great_project_jokhang_temple.dds",
+        "EN": "Jokhang Temple",
+        "CN": "大昭寺",
+        "ES": "Templo de Jokhang"
+    },
+    {
+        "relative_path": "great_project_kaaba.dds",
+        "EN": "Kaaba",
+        "CN": "克尔白",
+        "ES": "Kaaba"
+    },
+    {
+        "relative_path": "great_project_kanbawzathadi_palace.dds",
+        "EN": "Kanbawzathadi Palace",
+        "CN": "坎巴瓦萨提宫",
+        "ES": "Palacio Kanbawzathadi"
+    },
+    {
+        "relative_path": "great_project_kashi_vishwanath.dds",
+        "EN": "Kashi Vishwanath",
+        "CN": "喀什瓦讷特庙",
+        "ES": "Kashi Vishwanath"
+    },
+    {
+        "relative_path": "great_project_kazan_kremlin.dds",
+        "EN": "Kazan Kremlin",
+        "CN": "喀山克里姆林宫",
+        "ES": "Kremlin de Kazán"
+    },
+    {
+        "relative_path": "great_project_khajuraho.dds",
+        "EN": "Khajuraho",
+        "CN": "克久拉霍",
+        "ES": "Khajuraho"
+    },
+    {
+        "relative_path": "great_project_khami_ruins.dds",
+        "EN": "Khami Ruins",
+        "CN": "卡米遗址",
+        "ES": "Ruinas de Khami"
+    },
+    {
+        "relative_path": "great_project_kiev_pechersk_lavra.dds",
+        "EN": "Kiev Pechersk Lavra",
+        "CN": "基辅洞窟修道院",
+        "ES": "Monasterio de las Cuevas de Kiev"
+    },
+    {
+        "relative_path": "great_project_kilwa_city.dds",
+        "EN": "Kilwa City",
+        "CN": "基卢瓦城",
+        "ES": "Ciudad de Kilwa"
+    },
+    {
+        "relative_path": "great_project_krakow_cloth_hall.dds",
+        "EN": "Kraków Cloth Hall",
+        "CN": "克拉科夫纺织会馆",
+        "ES": "Lonja de los Paños de Cracovia"
+    },
+    {
+        "relative_path": "great_project_kronborg.dds",
+        "EN": "Kronborg",
+        "CN": "克伦堡",
+        "ES": "Kronborg"
+    },
+    {
+        "relative_path": "great_project_Kyoto.dds",
+        "EN": "Kyoto",
+        "CN": "京都",
+        "ES": "Kioto"
+    },
+    {
+        "relative_path": "great_project_machu_picchu.dds",
+        "EN": "Machu Picchu",
+        "CN": "马丘比丘",
+        "ES": "Machu Picchu"
+    },
+    {
+        "relative_path": "great_project_maidan-e_naqsh-e_jahan.dds",
+        "EN": "Maidan-e Naqsh-e Jahan",
+        "CN": "伊玛目广场",
+        "ES": "Plaza Naqsh-e Jahan"
+    },
+    {
+        "relative_path": "great_project_malbork_castle.dds",
+        "EN": "Malbork Castle",
+        "CN": "马尔堡城堡",
+        "ES": "Castillo de Malbork"
+    },
+    {
+        "relative_path": "great_project_malta_forts.dds",
+        "EN": "Malta Forts",
+        "CN": "马耳他堡垒",
+        "ES": "Fuertes de Malta"
+    },
+    {
+        "relative_path": "great_project_mausoleum_at_halicarnassus.dds",
+        "EN": "Mausoleum at Halicarnassus",
+        "CN": "摩索拉斯陵墓",
+        "ES": "Mausoleo de Halicarnaso"
+    },
+    {
+        "relative_path": "great_project_mbanza_kongo.dds",
+        "EN": "Mbanza Kongo",
+        "CN": "姆班扎刚果",
+        "ES": "Mbanza Kongo"
+    },
+    {
+        "relative_path": "great_project_mehrangarh_fort.dds",
+        "EN": "Mehrangarh Fort",
+        "CN": "梅兰加尔堡",
+        "ES": "Fuerte de Mehrangarh"
+    },
+    {
+        "relative_path": "great_project_mesa_verde.dds",
+        "EN": "Mesa Verde",
+        "CN": "梅萨维德",
+        "ES": "Mesa Verde"
+    },
+    {
+        "relative_path": "great_project_mount_fuji.dds",
+        "EN": "Mount Fuji",
+        "CN": "富士山",
+        "ES": "Monte Fuji"
+    },
+    {
+        "relative_path": "great_project_murud_janjira.dds",
+        "EN": "Murud-Janjira",
+        "CN": "穆鲁德-詹吉拉堡",
+        "ES": "Murud-Janjira"
+    },
+    {
+        "relative_path": "great_project_nan_madoll.dds",
+        "EN": "Nan Madol",
+        "CN": "南马都尔",
+        "ES": "Nan Madol"
+    },
+    {
+        "relative_path": "great_project_narikala_fortress.dds",
+        "EN": "Narikala Fortress",
+        "CN": "纳里卡拉要塞",
+        "ES": "Fortaleza de Narikala"
+    },
+    {
+        "relative_path": "great_project_nizwa_fort.dds",
+        "EN": "Nizwa Fort",
+        "CN": "尼兹瓦堡",
+        "ES": "Fuerte de Nizwa"
+    },
+    {
+        "relative_path": "great_project_notre_dame.dds",
+        "EN": "Notre-Dame",
+        "CN": "巴黎圣母院",
+        "ES": "Notre Dame"
+    },
+    {
+        "relative_path": "great_project_parthenon.dds",
+        "EN": "Parthenon",
+        "CN": "帕特农神庙",
+        "ES": "Partenón"
+    },
+    {
+        "relative_path": "great_project_pena_palace.dds",
+        "EN": "Pena Palace",
+        "CN": "佩纳宫",
+        "ES": "Palacio da Pena"
+    },
+    {
+        "relative_path": "great_project_petra.dds",
+        "EN": "Petra",
+        "CN": "佩特拉",
+        "ES": "Petra"
+    },
+    {
+        "relative_path": "great_project_place_holder.dds",
+        "EN": "Place Holder",
+        "CN": "占位符",
+        "ES": "Marcador de posición"
+    },
+    {
+        "relative_path": "great_project_PopePalace.dds",
+        "EN": "Pope's Palace",
+        "CN": "教皇宫",
+        "ES": "Palacio Papal"
+    },
+    {
+        "relative_path": "great_project_porcelain_tower_nanjing.dds",
+        "EN": "Porcelain Tower of Nanjing",
+        "CN": "南京琉璃塔",
+        "ES": "Torre de Porcelana de Nanjing"
+    },
+    {
+        "relative_path": "great_project_potosi.dds",
+        "EN": "Potosí",
+        "CN": "波托西",
+        "ES": "Potosí"
+    },
+    {
+        "relative_path": "great_project_prague.dds",
+        "EN": "Prague",
+        "CN": "布拉格",
+        "ES": "Praga"
+    },
+    {
+        "relative_path": "great_project_prambanan_temple.dds",
+        "EN": "Prambanan Temple",
+        "CN": "普兰巴南寺庙",
+        "ES": "Templo de Prambanan"
+    },
+    {
+        "relative_path": "great_project_pura_besakih.dds",
+        "EN": "Pura Besakih",
+        "CN": "贝萨基寺",
+        "ES": "Pura Besakih"
+    },
+    {
+        "relative_path": "great_project_pyramid_of_cheops.dds",
+        "EN": "Pyramid of Cheops",
+        "CN": "胡夫金字塔",
+        "ES": "Pirámide de Keops"
+    },
+    {
+        "relative_path": "great_project_qhapaq_nam.dds",
+        "EN": "Qhapaq Ñan",
+        "CN": "印加路网",
+        "ES": "Qhapaq Ñan"
+    },
+    {
+        "relative_path": "great_project_registan_square.dds",
+        "EN": "Registan Square",
+        "CN": "雷吉斯坦广场",
+        "ES": "Plaza del Registán"
+    },
+    {
+        "relative_path": "great_project_rila_monasteries.dds",
+        "EN": "Rila Monasteries",
+        "CN": "里拉修道院",
+        "ES": "Monasterios de Rila"
+    },
+    {
+        "relative_path": "great_project_royal_palace_caserta.dds",
+        "EN": "Royal Palace of Caserta",
+        "CN": "卡塞塔皇宫",
+        "ES": "Palacio Real de Caserta"
+    },
+    {
+        "relative_path": "great_project_saint_peters_cathedral.dds",
+        "EN": "St. Peter's Cathedral",
+        "CN": "圣彼得大教堂",
+        "ES": "Catedral de San Pedro"
+    },
+    {
+        "relative_path": "great_project_salvador_da_bahia.dds",
+        "EN": "Salvador da Bahia",
+        "CN": "巴伊亚萨尔瓦多",
+        "ES": "Salvador de Bahía"
+    },
+    {
+        "relative_path": "great_project_sankin_kotai_palaces.dds",
+        "EN": "Sankin-kotai Palaces",
+        "CN": "参勤交代宫殿",
+        "ES": "Palacios Sankin-kotai"
+    },
+    {
+        "relative_path": "great_project_sankore_madrasah.dds",
+        "EN": "Sankoré Madrasah",
+        "CN": "桑科雷伊斯兰学校",
+        "ES": "Madrasa de Sankoré"
+    },
+    {
+        "relative_path": "great_project_santa_maria_del_fiore.dds",
+        "EN": "Santa Maria del Fiore",
+        "CN": "圣母百花圣殿",
+        "ES": "Santa María del Fiore"
+    },
+    {
+        "relative_path": "great_project_san_antonio_missions.dds",
+        "EN": "San Antonio Missions",
+        "CN": "圣安东尼奥布道区",
+        "ES": "Misiones de San Antonio"
+    },
+    {
+        "relative_path": "great_project_schonbrunn_palace.dds",
+        "EN": "Schönbrunn Palace",
+        "CN": "美泉宫",
+        "ES": "Palacio de Schönbrunn"
+    },
+    {
+        "relative_path": "great_project_shah_rukn_e_alam_tomb.dds",
+        "EN": "Tomb of Shah Rukn-e-Alam",
+        "CN": "沙·鲁克·埃·阿兰陵墓",
+        "ES": "Tumba de Shah Rukn-e-Alam"
+    },
+    {
+        "relative_path": "great_project_shwedagon_pagoda.dds",
+        "EN": "Shwedagon Pagoda",
+        "CN": "仰光大金塔",
+        "ES": "Pagoda Shwedagon"
+    },
+    {
+        "relative_path": "great_project_spiral_minaret_samarra.dds",
+        "EN": "Spiral Minaret of Samarra",
+        "CN": "萨迈拉螺旋塔",
+        "ES": "Minarete en Espiral de Samarra"
+    },
+    {
+        "relative_path": "great_project_StBasil_cathedral.dds",
+        "EN": "St. Basil's Cathedral",
+        "CN": "圣瓦西里主教座堂",
+        "ES": "Catedral de San Basilio"
+    },
+    {
+        "relative_path": "great_project_stone_henge.dds",
+        "EN": "Stonehenge",
+        "CN": "巨石阵",
+        "ES": "Stonehenge"
+    },
+    {
+        "relative_path": "great_project_suez_canal.dds",
+        "EN": "Suez Canal",
+        "CN": "苏伊士运河",
+        "ES": "Canal de Suez"
+    },
+    {
+        "relative_path": "great_project_sultan_ahmed_mosque.dds",
+        "EN": "Sultan Ahmed Mosque",
+        "CN": "苏丹艾哈迈德清真寺",
+        "ES": "Mezquita del Sultán Ahmed"
+    },
+    {
+        "relative_path": "great_project_sun_temple_konarak.dds",
+        "EN": "Sun Temple of Konarak",
+        "CN": "科纳拉克太阳神庙",
+        "ES": "Templo del Sol de Konarak"
+    },
+    {
+        "relative_path": "great_project_swayambhunath.dds",
+        "EN": "Swayambhunath",
+        "CN": "斯瓦扬布纳特",
+        "ES": "Swayambhunath"
+    },
+    {
+        "relative_path": "great_project_taj_mahal.dds",
+        "EN": "Taj Mahal",
+        "CN": "泰姬陵",
+        "ES": "Taj Mahal"
+    },
+    {
+        "relative_path": "great_project_temple_of_confucius.dds",
+        "EN": "Temple of Confucius",
+        "CN": "孔庙",
+        "ES": "Templo de Confucio"
+    },
+    {
+        "relative_path": "great_project_tenochtitlan.dds",
+        "EN": "Tenochtitlan",
+        "CN": "特诺奇提特兰",
+        "ES": "Tenochtitlan"
+    },
+    {
+        "relative_path": "great_project_the_grand_palace.dds",
+        "EN": "The Grand Palace",
+        "CN": "大皇宫",
+        "ES": "Gran Palacio"
+    },
+    {
+        "relative_path": "great_project_the_great_wall_of_china.dds",
+        "EN": "The Great Wall of China",
+        "CN": "长城",
+        "ES": "Gran Muralla China"
+    },
+    {
+        "relative_path": "great_project_the_kremlin.dds",
+        "EN": "The Kremlin",
+        "CN": "克里姆林宫",
+        "ES": "Kremlin"
+    },
+    {
+        "relative_path": "great_project_tikal.dds",
+        "EN": "Tikal",
+        "CN": "蒂卡尔",
+        "ES": "Tikal"
+    },
+    {
+        "relative_path": "great_project_tiwanaku.dds",
+        "EN": "Tiwanaku",
+        "CN": "蒂瓦纳库",
+        "ES": "Tiwanaku"
+    },
+    {
+        "relative_path": "great_project_tortuga_island.dds",
+        "EN": "Tortuga Island",
+        "CN": "托尔图加岛",
+        "ES": "Isla de la Tortuga"
+    },
+    {
+        "relative_path": "great_project_tower_of_london.dds",
+        "EN": "Tower of London",
+        "CN": "伦敦塔",
+        "ES": "Torre de Londres"
+    },
+    {
+        "relative_path": "great_project_trakai_castle.dds",
+        "EN": "Trakai Castle",
+        "CN": "特拉凯城堡",
+        "ES": "Castillo de Trakai"
+    },
+    {
+        "relative_path": "great_project_tzintzuntzan.dds",
+        "EN": "Tzintzuntzan",
+        "CN": "钦春钱",
+        "ES": "Tzintzuntzan"
+    },
+    {
+        "relative_path": "great_project_ulm_minster.dds",
+        "EN": "Ulm Minster",
+        "CN": "乌尔姆大教堂",
+        "ES": "Catedral de Ulm"
+    },
+    {
+        "relative_path": "great_project_venetian_arsenal_gp.dds",
+        "EN": "Venetian Arsenal",
+        "CN": "威尼斯兵工厂",
+        "ES": "Arsenal de Venecia"
+    },
+    {
+        "relative_path": "great_project_versailles.dds",
+        "EN": "Versailles",
+        "CN": "凡尔赛宫",
+        "ES": "Versalles"
+    },
+    {
+        "relative_path": "great_project_visby_city.dds",
+        "EN": "Visby City",
+        "CN": "维斯比城",
+        "ES": "Ciudad de Visby"
+    },
+    {
+        "relative_path": "great_project_walls_benin.dds",
+        "EN": "Walls of Benin",
+        "CN": "贝宁城墙",
+        "ES": "Murallas de Benín"
+    },
+    {
+        "relative_path": "great_project_walls_benin2.dds",
+        "EN": "Walls of Benin (2)",
+        "CN": "贝宁城墙 (2)",
+        "ES": "Murallas de Benín (2)"
+    },
+    {
+        "relative_path": "great_project_white_house.dds",
+        "EN": "White House",
+        "CN": "白宫",
+        "ES": "Casa Blanca"
+    },
+    {
+        "relative_path": "great_project_winter_palace.dds",
+        "EN": "Winter Palace",
+        "CN": "冬宫",
+        "ES": "Palacio de Invierno"
+    },
+    {
+        "relative_path": "great_project_zacatecas_mine_city.dds",
+        "EN": "Zacatecas Mine City",
+        "CN": "萨卡特卡斯矿城",
+        "ES": "Ciudad Minera de Zacatecas"
+    }
+]
