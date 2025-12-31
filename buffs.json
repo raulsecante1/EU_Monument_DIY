@@ -1,1124 +1,1214 @@
 [
     {
         "code": "tolerance_own",
-        "EN": "Catholic",
-        "CN": "正信",
-        "ES": ""
+        "EN": "Tolerance of the True Faith",
+        "CN": "正信容忍",
+        "ES": "Tolerancia a la Fe Verdadera"
     },
     {
         "code": "tolerance_heretic",
-        "EN": "",
+        "EN": "Heretic Tolerance",
         "CN": "异端容忍",
-        "ES": ""
+        "ES": "Tolerancia a los Herejes"
     },
     {
         "code": "church_loyalty_modifier",
-        "EN": "",
-        "CN": "",
-        "ES": ""
+        "EN": "Church Estate Loyalty Modifier",
+        "CN": "教士阶层忠诚修正",
+        "ES": "Modificador de Lealtad del Estado Eclesiástico"
     },
     {
         "code": "yearly_patriarch_authority",
-        "EN": "",
+        "EN": "Yearly Patriarch Authority",
         "CN": "年度牧首权威",
-        "ES": ""
+        "ES": "Autoridad del Patriarca Anual"
     },
     {
         "code": "papal_influence",
-        "EN": "papal influence",
+        "EN": "Yearly Papal Influence",
         "CN": "年度教廷影响",
-        "ES": ""
+        "ES": "Influencia Papal Anual"
     },
     {
         "code": "tolerance_heathen",
-        "EN": "",
+        "EN": "Heathen Tolerance",
         "CN": "异教容忍",
-        "ES": ""
+        "ES": "Tolerancia a los Paganos"
     },
     {
         "code": "stability_cost_modifier",
-        "EN": "stability cost modifier",
-        "CN": "稳定花费",
-        "ES": ""
+        "EN": "Stability Cost Modifier",
+        "CN": "稳定度花费修正",
+        "ES": "Modificador de Coste de Estabilidad"
     },
     {
         "code": "global_missionary_strength",
-        "EN": "global missionary strength",
+        "EN": "Global Missionary Strength",
         "CN": "全局传教力量",
-        "ES": ""
+        "ES": "Fuerza Misionera Global"
     },
     {
         "code": "local_defensiveness",
-        "EN": "local defensiveness",
+        "EN": "Local Defensiveness",
         "CN": "本地防御",
-        "ES": ""
+        "ES": "Defensividad Local"
     },
     {
         "code": "army_tradition",
-        "EN": "army tradition",
+        "EN": "Yearly Army Tradition",
         "CN": "年度陆军传统",
-        "ES": ""
+        "ES": "Tradición del Ejército Anual"
     },
     {
         "code": "prestige",
-        "EN": "prestige",
+        "EN": "Prestige",
         "CN": "威望",
-        "ES": ""
+        "ES": "Prestigio"
     },
     {
         "code": "culture_conversion_cost",
-        "EN": "culture conversion cost",
-        "CN": "文化转化成本",
-        "ES": ""
+        "EN": "Culture Conversion Cost",
+        "CN": "文化转化花费",
+        "ES": "Coste de Conversión Cultural"
     },
     {
         "code": "missionaries",
-        "EN": "missionaries",
+        "EN": "Missionaries",
         "CN": "老头",
-        "ES": ""
+        "ES": "Misioneros"
     },
     {
         "code": "idea_cost",
-        "EN": "idea cost",
+        "EN": "Idea Cost",
         "CN": "理念花费",
-        "ES": ""
+        "ES": "Coste de Ideas"
     },
     {
         "code": "local_unrest",
-        "EN": "local unrest",
-        "CN": "本地叛乱",
-        "ES": ""
+        "EN": "Local Unrest",
+        "CN": "本地叛乱度",
+        "ES": "Descontento Local"
     },
     {
         "code": "advisor_cost",
-        "EN": "advisor cost",
+        "EN": "Advisor Cost",
         "CN": "顾问花费",
-        "ES": ""
+        "ES": "Coste de Asesores"
     },
     {
         "code": "advisor_pool",
-        "EN": "advisor pool",
+        "EN": "Advisor Pool",
         "CN": "顾问数量",
-        "ES": ""
+        "ES": "Grupo de Asesores"
     },
     {
         "code": "yearly_corruption",
-        "EN": "yearly corruption",
-        "CN": "年度腐败",
-        "ES": ""
+        "EN": "Yearly Corruption",
+        "CN": "年度腐败度",
+        "ES": "Corrupción Anual"
     },
     {
         "code": "yearly_absolutism",
-        "EN": "yearly absolutism",
-        "CN": "年度专制",
-        "ES": ""
+        "EN": "Yearly Absolutism",
+        "CN": "年度专制度",
+        "ES": "Absolutismo Anual"
     },
     {
         "code": "imperial_mandate",
-        "EN": "mandate",
+        "EN": "Imperial Mandate",
         "CN": "天命",
-        "ES": ""
+        "ES": "Mandato Imperial"
     },
     {
         "code": "prestige_decay",
-        "EN": "prestige decay",
+        "EN": "Prestige Decay",
         "CN": "威望衰减",
-        "ES": ""
+        "ES": "Decaimiento de Prestigio"
     },
     {
         "code": "yearly_karma_decay",
-        "EN": "yearly karma decay",
+        "EN": "Yearly Karma Decay",
         "CN": "年度业力衰减",
-        "ES": ""
+        "ES": "Decaimiento de Karma Anual"
     },
     {
         "code": "technology_cost",
-        "EN": "technology cost",
+        "EN": "Technology Cost",
         "CN": "科技花费",
-        "ES": ""
+        "ES": "Coste de Tecnología"
     },
     {
         "code": "diplomatic_reputation",
-        "EN": "diplomatic reputation",
+        "EN": "Diplomatic Reputation",
         "CN": "外交声望",
-        "ES": ""
+        "ES": "Reputación Diplomática"
     },
     {
         "code": "envoy_travel_time",
-        "EN": "envoy travel time",
-        "CN": "外交官移速",
-        "ES": ""
+        "EN": "Envoy Travel Time",
+        "CN": "外交官旅行时间",
+        "ES": "Tiempo de Viaje de Enviados"
     },
     {
         "code": "diplomatic_upkeep",
-        "EN": "diplomatic upkeep",
+        "EN": "Diplomatic Upkeep",
         "CN": "外交关系",
-        "ES": ""
+        "ES": "Mantenimiento Diplomático"
     },
     {
         "code": "fabricate_claims_cost",
-        "EN": "fabricate claims cost",
+        "EN": "Fabricate Claims Cost",
         "CN": "伪造宣称花费",
-        "ES": ""
+        "ES": "Coste de Falsificar Reclamaciones"
     },
     {
         "code": "monthly_fervor_increase",
-        "EN": "monthly fervor increase",
-        "CN": "月度热枕(改革宗)增加",
-        "ES": ""
+        "EN": "Monthly Fervor Increase",
+        "CN": "月度热忱增加",
+        "ES": "Aumento Mensual de Fervor"
     },
     {
         "code": "church_power_modifier",
-        "EN": "church power modifier",
-        "CN": "教堂力量",
-        "ES": ""
+        "EN": "Church Power Modifier",
+        "CN": "教会力量修正",
+        "ES": "Modificador de Poder Eclesiástico"
     },
     {
         "code": "enforce_religion_cost",
-        "EN": "enforce religion cost",
-        "CN": "强制专教花费",
-        "ES": ""
+        "EN": "Enforce Religion Cost",
+        "CN": "强制宗教统一花费",
+        "ES": "Coste de Imponer Religión"
     },
     {
         "code": "local_manpower_modifier",
-        "EN": "local manpower modifier",
+        "EN": "Local Manpower Modifier",
         "CN": "本地人力修正",
-        "ES": ""
+        "ES": "Modificador de Mano de Obra Local"
     },
     {
         "code": "global_regiment_cost",
-        "EN": "global regiment cost",
-        "CN": "全局单位招募花费",
-        "ES": ""
+        "EN": "Global Regiment Cost",
+        "CN": "全局兵团招募花费",
+        "ES": "Coste Global de Regimientos"
     },
     {
         "code": "discipline",
-        "EN": "discipline",
+        "EN": "Discipline",
         "CN": "训练度",
-        "ES": ""
+        "ES": "Disciplina"
     },
     {
         "code": "fire_damage_received",
-        "EN": "fire damage received",
+        "EN": "Fire Damage Received",
         "CN": "受到火力伤害",
-        "ES": ""
+        "ES": "Daño de Fuego Recibido"
     },
     {
         "code": "shock_damage_received",
-        "EN": "shock damage received",
+        "EN": "Shock Damage Received",
         "CN": "受到冲击伤害",
-        "ES": ""
+        "ES": "Daño de Choque Recibido"
     },
     {
         "code": "hostile_attrition",
-        "EN": "hostile attrition",
+        "EN": "Hostile Attrition",
         "CN": "敌对损耗",
-        "ES": ""
+        "ES": "Desgaste Hostil"
     },
     {
         "code": "max_hostile_attrition",
-        "EN": "max hostile attrition",
+        "EN": "Maximum Hostile Attrition",
         "CN": "最大敌对损耗",
-        "ES": ""
+        "ES": "Desgaste Hostil Máximo"
     },
     {
         "code": "garrison_size",
-        "EN": "garrison size",
+        "EN": "Garrison Size",
         "CN": "驻军规模",
-        "ES": ""
+        "ES": "Tamaño de la Guarnición"
     },
     {
         "code": "fire_damage",
-        "EN": "fire damage",
+        "EN": "Fire Damage",
         "CN": "火力伤害",
-        "ES": ""
+        "ES": "Daño de Fuego"
     },
     {
         "code": "reinforce_speed",
-        "EN": "reinforce speed",
+        "EN": "Reinforce Speed",
         "CN": "增援速度",
-        "ES": ""
+        "ES": "Velocidad de Refuerzo"
     },
     {
         "code": "movement_speed",
-        "EN": "movement speed",
+        "EN": "Movement Speed",
         "CN": "移动速度",
-        "ES": ""
+        "ES": "Velocidad de Movimiento"
     },
     {
         "code": "cavalry_power",
-        "EN": "cavalry power",
-        "CN": "骑战",
-        "ES": ""
+        "EN": "Cavalry Power",
+        "CN": "骑战能力",
+        "ES": "Poder de Caballería"
     },
     {
         "code": "infantry_power",
-        "EN": "infantry power",
-        "CN": "步战",
-        "ES": ""
+        "EN": "Infantry Power",
+        "CN": "步战能力",
+        "ES": "Poder de Infantería"
     },
     {
         "code": "artillery_power",
-        "EN": "artillery power",
-        "CN": "炮战",
-        "ES": ""
+        "EN": "Artillery Power",
+        "CN": "炮战能力",
+        "ES": "Poder de Artillería"
     },
     {
         "code": "reform_progress_growth",
-        "EN": "reform progress growth",
-        "CN": "政府改革增加",
-        "ES": ""
+        "EN": "Reform Progress Growth",
+        "CN": "政府改革进度增长",
+        "ES": "Crecimiento del Progreso de Reformas"
     },
     {
         "code": "mercantilism_cost",
-        "EN": "mercantilism cost",
-        "CN": "重商花费",
-        "ES": ""
+        "EN": "Mercantilism Cost",
+        "CN": "重商主义花费",
+        "ES": "Coste de Mercantilismo"
     },
     {
         "code": "manpower_recovery_speed",
-        "EN": "manpower recovery speed",
-        "CN": "人力回复修正",
-        "ES": ""
+        "EN": "Manpower Recovery Speed",
+        "CN": "人力回复速度修正",
+        "ES": "Velocidad de Recuperación de Mano de Obra"
     },
     {
         "code": "global_regiment_recruit_speed",
-        "EN": "global regiment recruit speed",
-        "CN": "全局单位招募速度",
-        "ES": ""
+        "EN": "Global Regiment Recruit Speed",
+        "CN": "全局兵团招募速度",
+        "ES": "Velocidad Global de Reclutamiento de Regimientos"
     },
     {
         "code": "infantry_cost",
-        "EN": "infantry cost",
+        "EN": "Infantry Cost",
         "CN": "步兵花费",
-        "ES": ""
+        "ES": "Coste de Infantería"
     },
     {
         "code": "spy_offence",
-        "EN": "spy offence",
-        "CN": "间谍效率",
-        "ES": ""
+        "EN": "Spy Offence",
+        "CN": "间谍进攻效率",
+        "ES": "Eficiencia de Espionaje Ofensivo"
     },
     {
         "code": "global_spy_defence",
-        "EN": "global spy defence",
-        "CN": "间谍防御",
-        "ES": ""
+        "EN": "Global Spy Defence",
+        "CN": "全局间谍防御",
+        "ES": "Defensa contra Espionaje Global"
     },
     {
         "code": "religious_unity",
-        "EN": "religious unity",
-        "CN": "宗教团结",
-        "ES": ""
+        "EN": "Religious Unity",
+        "CN": "宗教统一度",
+        "ES": "Unidad Religiosa"
     },
     {
         "code": "nobles_loyalty_modifier",
-        "EN": "nobles loyalty modifier",
-        "CN": "贵族忠诚修正",
-        "ES": ""
+        "EN": "Nobles Estate Loyalty Modifier",
+        "CN": "贵族阶层忠诚修正",
+        "ES": "Modificador de Lealtad del Estado Nobiliario"
     },
     {
         "code": "appoint_cardinal_cost",
-        "EN": "appoint cardinal cost",
-        "CN": "提拔枢机花费",
-        "ES": ""
+        "EN": "Appoint Cardinal Cost",
+        "CN": "任命枢机主教花费",
+        "ES": "Coste de Nombrar Cardenal"
     },
     {
         "code": "curia_powers_cost",
-        "EN": "curia powers cost",
+        "EN": "Curia Powers Cost",
         "CN": "教廷权力花费",
-        "ES": ""
+        "ES": "Coste de Poderes de la Curia"
     },
     {
         "code": "church_influence_modifier",
-        "EN": "church influence modifier",
-        "CN": "",
-        "ES": ""
+        "EN": "Church Influence Modifier",
+        "CN": "教会影响修正",
+        "ES": "Modificador de Influencia Eclesiástica"
     },
     {
         "code": "local_monthly_devastation",
-        "EN": "local monthly devastation",
-        "CN": "本地月度荒废",
-        "ES": ""
+        "EN": "Local Monthly Devastation",
+        "CN": "本地月度荒废度",
+        "ES": "Devastación Mensual Local"
     },
     {
         "code": "local_tax_modifier",
-        "EN": "local tax modifier",
+        "EN": "Local Tax Modifier",
         "CN": "本地税收修正",
-        "ES": ""
+        "ES": "Modificador de Impuestos Local"
     },
     {
         "code": "local_build_cost",
-        "EN": "local build cost",
+        "EN": "Local Build Cost",
         "CN": "本地建筑花费",
-        "ES": ""
+        "ES": "Coste de Construcción Local"
     },
     {
         "code": "local_development_cost",
-        "EN": "local development cost",
+        "EN": "Local Development Cost",
         "CN": "本地发展度花费",
-        "ES": ""
+        "ES": "Coste de Desarrollo Local"
     },
     {
         "code": "trade_goods_size_modifier",
-        "EN": "trade goods size modifier",
-        "CN": "",
-        "ES": ""
+        "EN": "Trade Goods Size Modifier",
+        "CN": "商品产出修正",
+        "ES": "Modificador de Tamaño de Bienes Comerciales"
     },
     {
         "code": "yearly_doom_reduction",
-        "EN": "yearly doom reduction",
-        "CN": "年度末日预兆减少",
-        "ES": ""
-    },
-    {
-        "code": "church_loyalty_modifier",
-        "EN": "church loyalty modifier",
-        "CN": "教士忠诚修正",
-        "ES": ""
+        "EN": "Yearly Doom Reduction",
+        "CN": "年度末日值减少",
+        "ES": "Reducción Anual de Condena"
     },
     {
         "code": "garrison_growth",
-        "EN": "garrison growth",
-        "CN": "驻军增加",
-        "ES": ""
+        "EN": "Garrison Growth",
+        "CN": "驻军增长",
+        "ES": "Crecimiento de la Guarnición"
     },
     {
         "code": "drill_gain_modifier",
-        "EN": "drill gain modifier",
-        "CN": "操练度获得",
-        "ES": ""
+        "EN": "Drill Gain Modifier",
+        "CN": "操练度获得修正",
+        "ES": "Modificador de Ganancia de Instrucción"
     },
     {
         "code": "monthly_piety_accelerator",
-        "EN": "monthly piety accelerator",
-        "CN": "月度虔诚",
-        "ES": ""
+        "EN": "Monthly Piety Accelerator",
+        "CN": "月度虔诚加速",
+        "ES": "Acelerador de Piedad Mensual"
     },
     {
         "code": "monthly_splendor",
-        "EN": "monthly splendor",
-        "CN": "月度辉煌",
-        "ES": ""
+        "EN": "Monthly Splendor",
+        "CN": "月度辉煌点数",
+        "ES": "Esplendor Mensual"
     },
     {
         "code": "power_projection_from_insults",
-        "EN": "power projection from insults",
-        "CN": "羞辱的力量投射",
-        "ES": ""
+        "EN": "Power Projection from Insults",
+        "CN": "来自侮辱的强权投射",
+        "ES": "Proyección de Poder por Insultos"
     },
     {
         "code": "administrative_efficiency",
-        "EN": "administrative efficiency",
+        "EN": "Administrative Efficiency",
         "CN": "行政效率",
-        "ES": ""
+        "ES": "Eficiencia Administrativa"
     },
     {
         "code": "vassal_income",
-        "EN": "vassal income",
-        "CN": "附庸税",
-        "ES": ""
+        "EN": "Vassal Income",
+        "CN": "附庸收入",
+        "ES": "Ingresos de Vasallos"
     },
     {
         "code": "reduced_liberty_desire",
-        "EN": "reduced liberty desire",
-        "CN": "独立倾向",
-        "ES": ""
+        "EN": "Reduced Liberty Desire",
+        "CN": "降低独立倾向",
+        "ES": "Deseo de Libertad Reducido"
     },
     {
         "code": "governing_capacity_modifier",
-        "EN": "governing capacity modifier",
-        "CN": "政府容量修正",
-        "ES": ""
+        "EN": "Governing Capacity Modifier",
+        "CN": "统治容量修正",
+        "ES": "Modificador de Capacidad de Gobierno"
     },
     {
         "code": "vassal_forcelimit_bonus",
-        "EN": "vassal forcelimit bonus",
-        "CN": "附庸陆军上学贡献",
-        "ES": ""
+        "EN": "Vassal Forcelimit Bonus",
+        "CN": "附庸陆军上限贡献",
+        "ES": "Bonificación al Límite de Fuerza de Vasallos"
     },
     {
         "code": "ae_impact",
-        "EN": "ae impact",
+        "EN": "Aggressive Expansion Impact",
         "CN": "侵略扩张影响",
-        "ES": ""
+        "ES": "Impacto de Expansión Agresiva"
     },
     {
         "code": "caravan_power",
-        "EN": "caravan power",
+        "EN": "Caravan Power",
         "CN": "商队力量",
-        "ES": ""
+        "ES": "Poder de Caravana"
     },
     {
         "code": "trade_efficiency",
-        "EN": "trade efficiency",
+        "EN": "Trade Efficiency",
         "CN": "贸易效率",
-        "ES": ""
-    },
-    {
-        "code": "reform_progress_growth",
-        "EN": "reformprogressgrowth",
-        "CN": "政府改革增加",
-        "ES": ""
+        "ES": "Eficiencia Comercial"
     },
     {
         "code": "global_trade_power",
-        "EN": "global trade power",
+        "EN": "Global Trade Power",
         "CN": "全局贸易力量",
-        "ES": ""
+        "ES": "Poder Comercial Global"
     },
     {
         "code": "global_autonomy",
-        "EN": "global autonomy",
-        "CN": "全局自治",
-        "ES": ""
+        "EN": "Global Autonomy",
+        "CN": "全局自治度",
+        "ES": "Autonomía Global"
     },
     {
         "code": "min_autonomy_in_territories",
-        "EN": "minimum autonomy in territories",
-        "CN": "最低自治领自治",
-        "ES": ""
+        "EN": "Minimum Autonomy in Territories",
+        "CN": "领地最低自治度",
+        "ES": "Autonomía Mínima en Territorios"
     },
     {
         "code": "missionary_maintenance_cost",
-        "EN": "missionary maintenance cost",
-        "CN": "老头维护",
-        "ES": ""
+        "EN": "Missionary Maintenance Cost",
+        "CN": "传教士维护费",
+        "ES": "Coste de Mantenimiento de Misioneros"
     },
     {
         "code": "global_unrest",
-        "EN": "global unrest",
-        "CN": "全局叛乱",
-        "ES": ""
+        "EN": "Global Unrest",
+        "CN": "全局叛乱度",
+        "ES": "Descontento Global"
     },
     {
         "code": "num_accepted_cultures",
-        "EN": "number of accepted cultures",
-        "CN": "可接受文化数",
-        "ES": ""
+        "EN": "Number of Accepted Cultures",
+        "CN": "可接受文化数量",
+        "ES": "Número de Culturas Aceptadas"
     },
     {
         "code": "yearly_harmony",
-        "EN": "yearly harmony",
-        "CN": "年度和谐",
-        "ES": ""
+        "EN": "Yearly Harmony",
+        "CN": "年度和谐度",
+        "ES": "Armonía Anual"
     },
     {
         "code": "naval_forcelimit_modifier",
-        "EN": "naval forcelimit modifier",
+        "EN": "Naval Forcelimit Modifier",
         "CN": "海军上限修正",
-        "ES": ""
+        "ES": "Modificador de Límite Naval"
     },
     {
         "code": "naval_maintenance_modifier",
-        "EN": "naval maintenance modifier",
-        "CN": "海军维护修正",
-        "ES": ""
+        "EN": "Naval Maintenance Modifier",
+        "CN": "海军维护费修正",
+        "ES": "Modificador de Mantenimiento Naval"
     },
     {
         "code": "navy_tradition",
-        "EN": "navy tradition",
+        "EN": "Navy Tradition",
         "CN": "海军传统",
-        "ES": ""
+        "ES": "Tradición Naval"
     },
     {
         "code": "admiral_cost",
-        "EN": "admiral cost",
-        "CN": "提督花费",
-        "ES": ""
+        "EN": "Admiral Cost",
+        "CN": "海军上将花费",
+        "ES": "Coste de Almirante"
     },
     {
         "code": "brahmins_hindu_loyalty_modifier",
-        "EN": "brahmins loyalty modifier",
-        "CN": "",
-        "ES": ""
+        "EN": "Brahmins Loyalty Modifier",
+        "CN": "婆罗门忠诚修正",
+        "ES": "Modificador de Lealtad de los Brahamanes"
     },
     {
         "code": "war_exhaustion",
-        "EN": "war exhaustion",
-        "CN": "厌战",
-        "ES": ""
+        "EN": "War Exhaustion",
+        "CN": "厌战度",
+        "ES": "Agotamiento de Guerra"
     },
     {
         "code": "yearly_government_power",
-        "EN": "yearly government power",
-        "CN": "年度政府能力",
-        "ES": ""
+        "EN": "Yearly Government Power",
+        "CN": "年度政府点数",
+        "ES": "Poder Gubernamental Anual"
     },
     {
         "code": "all_estate_loyalty_equilibrium",
-        "EN": "all estate loyalty equilibrium",
-        "CN": "全阶级忠诚",
-        "ES": ""
+        "EN": "All Estate Loyalty Equilibrium",
+        "CN": "全阶层忠诚度平衡",
+        "ES": "Equilibrio de Lealtad de Todos los Estamentos"
     },
     {
         "code": "no_stability_loss_on_monarch_death",
-        "EN": "no stability loss on monarch death",
-        "CN": "君主死亡不掉稳定",
-        "ES": ""
+        "EN": "No Stability Loss on Monarch Death",
+        "CN": "君主死亡时不损失稳定度",
+        "ES": "Sin Pérdida de Estabilidad al Morir el Monarca"
     },
     {
         "code": "same_culture_advisor_cost",
-        "EN": "same culture advisor cost",
+        "EN": "Same Culture Advisor Cost",
         "CN": "同文化顾问花费",
-        "ES": ""
+        "ES": "Coste de Asesores de la Misma Cultura"
     },
     {
         "code": "promote_culture_cost",
-        "EN": "promote culture cost",
-        "CN": "提拔文化花费",
-        "ES": ""
+        "EN": "Promote Culture Cost",
+        "CN": "提升文化花费",
+        "ES": "Coste de Promover Cultura"
     },
     {
         "code": "global_sailors_modifier",
-        "EN": "global sailors modifier",
+        "EN": "Global Sailors Modifier",
         "CN": "全局水手修正",
-        "ES": ""
+        "ES": "Modificador Global de Marineros"
     },
-
     {
         "code": "general_cost",
-        "EN": "general cost",
+        "EN": "General Cost",
         "CN": "将军花费",
-        "ES": ""
+        "ES": "Coste de General"
     },
     {
         "code": "war_taxes_cost_modifier",
-        "EN": "war taxes cost modifier",
+        "EN": "War Taxes Cost Modifier",
         "CN": "战争税花费修正",
-        "ES": ""
+        "ES": "Modificador de Coste de Impuestos de Guerra"
     },
     {
         "code": "monarch_lifespan",
-        "EN": "monarch lifespan",
+        "EN": "Monarch Lifespan",
         "CN": "君主寿命",
-        "ES": ""
+        "ES": "Esperanza de Vida del Monarca"
     },
     {
         "code": "improve_relation_modifier",
-        "EN": "improve relation modifier",
+        "EN": "Improve Relations Modifier",
         "CN": "改善关系修正",
-        "ES": ""
-    },{
+        "ES": "Modificador de Mejorar Relaciones"
+    },
+    {
         "code": "nobles_influence_modifier",
-        "EN": "nobles influence modifier",
+        "EN": "Nobles Influence Modifier",
         "CN": "贵族影响修正",
-        "ES": ""
+        "ES": "Modificador de Influencia de los Nobles"
     },
     {
         "code": "global_tax_modifier",
-        "EN": "global tax modifier",
+        "EN": "Global Tax Modifier",
         "CN": "全局税收修正",
-        "ES": ""
-    },{
+        "ES": "Modificador Global de Impuestos"
+    },
+    {
         "code": "global_tariffs",
-        "EN": "global tariffs",
+        "EN": "Global Tariffs",
         "CN": "全局关税",
-        "ES": ""
-    },{
+        "ES": "Aranceles Globales"
+    },
+    {
         "code": "treasure_fleet_income",
-        "EN": "treasure fleet income",
-        "CN": "黄金船收入",
-        "ES": ""
-    },{
+        "EN": "Treasure Fleet Income",
+        "CN": "宝船队收入",
+        "ES": "Ingresos de la Flota del Tesoro"
+    },
+    {
         "code": "interest",
-        "EN": "interest",
+        "EN": "Interest",
         "CN": "利息",
-        "ES": ""
-    },{
+        "ES": "Interés"
+    },
+    {
         "code": "trade_goods_size",
-        "EN": "trade goods size",
-        "CN": "本地商品产出修正",
-        "ES": ""
-    },{
+        "EN": "Trade Goods Size",
+        "CN": "商品产出",
+        "ES": "Tamaño de los Bienes Comerciales"
+    },
+    {
         "code": "global_prov_trade_power_modifier",
-        "EN": "global provence trade power modifier",
+        "EN": "Global Province Trade Power Modifier",
         "CN": "全局省份贸易力量修正",
-        "ES": ""
-    },{
+        "ES": "Modificador de Poder Comercial de Provincia Global"
+    },
+    {
         "code": "warscore_cost_vs_other_religion",
-        "EN": "warscore cost vs other religion",
-        "CN": "对其它信仰战争分花费",
-        "ES": ""
-    },{
+        "EN": "Warscore Cost vs Other Religion",
+        "CN": "对其他宗教的战争分数花费",
+        "ES": "Coste de Puntuación de Guerra contra Otras Religiones"
+    },
+    {
         "code": "global_heretic_missionary_strength",
-        "EN": "global heretic missionary strength",
+        "EN": "Global Heretic Missionary Strength",
         "CN": "全局对异端传教力量",
-        "ES": ""
-    },{
+        "ES": "Fuerza Misionera Global contra Herejes"
+    },
+    {
         "code": "global_heathen_missionary_strength",
-        "EN": "global heathen missionary strength",
+        "EN": "Global Heathen Missionary Strength",
         "CN": "全局对异教传教力量",
-        "ES": ""
-    },{
+        "ES": "Fuerza Misionera Global contra Paganos"
+    },
+    {
         "code": "legitimacy",
-        "EN": "legitimacy",
-        "CN": "正统",
-        "ES": ""
-    },{
+        "EN": "Legitimacy",
+        "CN": "正统性",
+        "ES": "Legitimidad"
+    },
+    {
         "code": "state_maintenance_modifier",
-        "EN": "state maintenance modifier",
-        "CN": "州维护修正",
-        "ES": ""
-    },{
+        "EN": "State Maintenance Modifier",
+        "CN": "州维护费修正",
+        "ES": "Modificador de Mantenimiento Estatal"
+    },
+    {
         "code": "merchants",
-        "EN": "merchants",
+        "EN": "Merchants",
         "CN": "商人",
-        "ES": ""
-    },{
+        "ES": "Comerciantes"
+    },
+    {
         "code": "trade_steering",
-        "EN": "trade steering",
-        "CN": "贸易分流",
-        "ES": ""
-    },{
+        "EN": "Trade Steering",
+        "CN": "贸易引导",
+        "ES": "Dirección Comercial"
+    },
+    {
         "code": "global_ship_trade_power",
-        "EN": "global ship trade power",
-        "CN": "全局船只贸易力",
-        "ES": ""
-    },{
+        "EN": "Global Ship Trade Power",
+        "CN": "全局船只贸易力量",
+        "ES": "Poder Comercial de Barcos Global"
+    },
+    {
         "code": "burghers_loyalty_modifier",
-        "EN": "burghers loyalty modifier",
+        "EN": "Burghers Loyalty Modifier",
         "CN": "市民忠诚修正",
-        "ES": ""
-    },{
+        "ES": "Modificador de Lealtad de los Burgueses"
+    },
+    {
         "code": "jains_loyalty_modifier",
-        "EN": "jains loyalty modifier",
+        "EN": "Jains Loyalty Modifier",
         "CN": "耆那教徒忠诚修正",
-        "ES": ""
-    },{
+        "ES": "Modificador de Lealtad de los Jainistas"
+    },
+    {
         "code": "rival_border_fort_maintenance",
-        "EN": "rival border fort maintenance",
-        "CN": "宿敌边境要塞维护",
-        "ES": ""
-    },{
+        "EN": "Rival Border Fort Maintenance",
+        "CN": "宿敌边境要塞维护费",
+        "ES": "Mantenimiento de Fortalezas Fronterizas de Rivales"
+    },
+    {
         "code": "global_garrison_growth",
-        "EN": "global garrison growth",
+        "EN": "Global Garrison Growth",
         "CN": "全局驻军增长",
-        "ES": ""
-    },{
+        "ES": "Crecimiento Global de Guarnición"
+    },
+    {
         "code": "monthly_militarized_society",
-        "EN": "monthly militarized society",
-        "CN": "月度社会军事化",
-        "ES": ""
-    },{
+        "EN": "Monthly Militarized Society",
+        "CN": "月度军事化社会",
+        "ES": "Sociedad Militarizada Mensual"
+    },
+    {
         "code": "prestige_from_land",
-        "EN": "prestige from land battle",
+        "EN": "Prestige from Land Battle",
         "CN": "陆战声望",
-        "ES": ""
-    },{
+        "ES": "Prestigio por Batallas Terrestres"
+    },
+    {
         "code": "army_tradition_from_battle",
-        "EN": "army tradition from battle",
+        "EN": "Army Tradition from Battle",
         "CN": "陆战传统",
-        "ES": ""
-    },{
+        "ES": "Tradición del Ejército por Batalla"
+    },
+    {
         "code": "monthly_prussian_militarized_society_1",
-        "EN": "",
-        "CN": "",
-        "ES": ""
-    },{
+        "EN": "Monthly Prussian Militarized Society Tier 1",
+        "CN": "月度普鲁士军事化社会一级",
+        "ES": "Sociedad Militarizada Prusiana Mensual Nivel 1"
+    },
+    {
         "code": "monthly_prussian_militarized_society_2",
-        "EN": "",
-        "CN": "",
-        "ES": ""
-    },{
+        "EN": "Monthly Prussian Militarized Society Tier 2",
+        "CN": "月度普鲁士军事化社会二级",
+        "ES": "Sociedad Militarizada Prusiana Mensual Nivel 2"
+    },
+    {
         "code": "monthly_prussian_militarized_society_3",
-        "EN": "",
-        "CN": "",
-        "ES": ""
-    },{
+        "EN": "Monthly Prussian Militarized Society Tier 3",
+        "CN": "月度普鲁士军事化社会三级",
+        "ES": "Sociedad Militarizada Prusiana Mensual Nivel 3"
+    },
+    {
         "code": "max_absolutism_effect",
-        "EN": "max absolutism effect",
+        "EN": "Maximum Absolutism Effect",
         "CN": "最大专制效果",
-        "ES": ""
-    },{
+        "ES": "Efecto de Absolutismo Máximo"
+    },
+    {
         "code": "global_institution_spread",
-        "EN": "global institution spread",
+        "EN": "Global Institution Spread",
         "CN": "全局思潮传播",
-        "ES": ""
-    },{
+        "ES": "Propagación Global de Instituciones"
+    },
+    {
         "code": "embracement_cost",
-        "EN": "embracement cost",
+        "EN": "Embracement Cost",
         "CN": "接纳思潮花费",
-        "ES": ""
-    },{
+        "ES": "Coste de Adopción"
+    },
+    {
         "code": "tribal_development_growth",
-        "EN": "tribal development growth",
-        "CN": "部落发展增长",
-        "ES": ""
-    },{
+        "EN": "Tribal Development Growth",
+        "CN": "部落发展度增长",
+        "ES": "Crecimiento de Desarrollo Tribal"
+    },
+    {
         "code": "global_manpower_modifier",
-        "EN": "global manpower modifier",
+        "EN": "Global Manpower Modifier",
         "CN": "全局人力修正",
-        "ES": ""
-    },{
+        "ES": "Modificador Global de Mano de Obra"
+    },
+    {
         "code": "hostile_fleet_attrition",
-        "EN": "hostile fleet attrition",
+        "EN": "Hostile Fleet Attrition",
         "CN": "敌对舰队损耗",
-        "ES": ""
-    },{
+        "ES": "Desgaste de Flota Hostil"
+    },
+    {
         "code": "blockade_force_required",
-        "EN": "blockade force required",
-        "CN": "封锁港口所需舰队",
-        "ES": ""
-    },{
+        "EN": "Blockade Force Required",
+        "CN": "封锁所需兵力",
+        "ES": "Fuerza de Bloqueo Requerida"
+    },
+    {
         "code": "yearly_authority",
-        "EN": "yearly authority",
-        "CN": "",
-        "ES": ""
-    },{
+        "EN": "Yearly Authority",
+        "CN": "年度权威",
+        "ES": "Autoridad Anual"
+    },
+    {
         "code": "monthly_divine_authority",
-        "EN": "monthly divine authority",
-        "CN": "",
-        "ES": ""
-    },{
+        "EN": "Monthly Divine Authority",
+        "CN": "月度神圣权威",
+        "ES": "Autoridad Divina Mensual"
+    },
+    {
         "code": "republican_tradition",
-        "EN": "republican tradition",
+        "EN": "Republican Tradition",
         "CN": "共和传统",
-        "ES": ""
-    },{
+        "ES": "Tradición Republicana"
+    },
+    {
         "code": "monthly_authority_power",
-        "EN": "monthly authority power",
-        "CN": "",
-        "ES": ""
-    },{
+        "EN": "Monthly Authority Power",
+        "CN": "月度权威力量",
+        "ES": "Poder de Autoridad Mensual"
+    },
+    {
         "code": "global_religious_conversion_resistance",
-        "EN": "global religious conversion resistance",
-        "CN": "全局传教抵抗",
-        "ES": ""
-    },{
+        "EN": "Global Religious Conversion Resistance",
+        "CN": "全局宗教转化抵抗",
+        "ES": "Resistencia Global a Conversión Religiosa"
+    },
+    {
         "code": "horde_unity",
-        "EN": "horde unity",
+        "EN": "Horde Unity",
         "CN": "游牧团结",
-        "ES": ""
-    },{
+        "ES": "Unidad de Horda"
+    },
+    {
         "code": "prestige_per_development_from_conversion",
-        "EN": "prestige per development from conversion",
-        "CN": "每发展度传教威望",
-        "ES": ""
-    },{
+        "EN": "Prestige per Development from Conversion",
+        "CN": "每点发展度转化带来的威望",
+        "ES": "Prestigio por Desarrollo por Conversión"
+    },
+    {
         "code": "overlord_naval_forcelimit_modifier",
-        "EN": "overlord naval forcelimit modifier",
-        "CN": "领主海军上限修正",
-        "ES": ""
-    },{
+        "EN": "Overlord Naval Forcelimit Modifier",
+        "CN": "宗主国海军上限修正",
+        "ES": "Modificador de Límite Naval del Señor"
+    },
+    {
         "code": "tolerance_of_heretics_capacity",
-        "EN": "tolerance of heretics capacity",
+        "EN": "Tolerance of Heretics Capacity",
         "CN": "异端容忍上限",
-        "ES": ""
-    },{
+        "ES": "Capacidad de Tolerancia a Herejes"
+    },
+    {
         "code": "tolerance_of_heathens_capacity",
-        "EN": "tolerance of heathens capacity",
+        "EN": "Tolerance of Heathens Capacity",
         "CN": "异教容忍上限",
-        "ES": ""
-    },{
+        "ES": "Capacidad de Tolerancia a Paganos"
+    },
+    {
         "code": "monarch_admin_power",
-        "EN": "monarch admin power",
+        "EN": "Monarch Administrative Power",
         "CN": "君主行政能力",
-        "ES": ""
-    },{
+        "ES": "Poder Administrativo del Monarca"
+    },
+    {
         "code": "institution_spread_from_true_faith",
-        "EN": "institution spread from true faith",
+        "EN": "Institution Spread from True Faith",
         "CN": "正信思潮传播",
-        "ES": ""
-    },{
+        "ES": "Propagación de Instituciones desde la Fe Verdadera"
+    },
+    {
         "code": "core_creation",
-        "EN": "core creation",
-        "CN": "枣核",
-        "ES": ""
-    },{
+        "EN": "Core Creation Cost",
+        "CN": "核心化花费",
+        "ES": "Coste de Creación de Núcleos"
+    },
+    {
         "code": "heir_chance",
-        "EN": "heir chance",
-        "CN": "继承人概率",
-        "ES": ""
-    },{
+        "EN": "Heir Chance",
+        "CN": "继承人生成概率",
+        "ES": "Probabilidad de Heredero"
+    },
+    {
         "code": "placed_merchant_power",
-        "EN": "placed merchant power",
-        "CN": "商人力量",
-        "ES": ""
-    },{
+        "EN": "Placed Merchant Power",
+        "CN": "已安置商人力量",
+        "ES": "Poder del Comerciante Colocado"
+    },
+    {
         "code": "devotion",
-        "EN": "devotion",
-        "CN": "奉献",
-        "ES": ""
-    },{
+        "EN": "Devotion",
+        "CN": "奉献度",
+        "ES": "Devoción"
+    },
+    {
         "code": "mercenary_cost",
-        "EN": "mercenary cost",
+        "EN": "Mercenary Cost",
         "CN": "雇佣兵花费",
-        "ES": ""
-    },{
+        "ES": "Coste de Mercenarios"
+    },
+    {
         "code": "hostile_disembark_speed",
-        "EN": "hostile disembark speed",
+        "EN": "Hostile Disembark Speed",
         "CN": "敌对登陆速度",
-        "ES": ""
-    },{
+        "ES": "Velocidad de Desembarco Hostil"
+    },
+    {
         "code": "special_unit_forcelimit",
-        "EN": "special unit forcelimit",
-        "CN": "特殊部队上限修正",
-        "ES": ""
-    },{
+        "EN": "Special Unit Forcelimit",
+        "CN": "特殊部队上限",
+        "ES": "Límite de Fuerza de Unidades Especiales"
+    },
+    {
         "code": "colonist_placement_chance",
-        "EN": "colonist placement chance",
-        "CN": "殖民者安置几率",
-        "ES": ""
-    },{
+        "EN": "Colonist Placement Chance",
+        "CN": "殖民者安置概率",
+        "ES": "Probabilidad de Colocación de Colonos"
+    },
+    {
         "code": "global_colonial_growth",
-        "EN": "global colonial growth",
-        "CN": "全局殖民地发展",
-        "ES": ""
-    },{
+        "EN": "Global Colonial Growth",
+        "CN": "全局殖民增长",
+        "ES": "Crecimiento Colonial Global"
+    },
+    {
         "code": "meritocracy",
-        "EN": "meritocracy",
-        "CN": "贤能",
-        "ES": ""
-    },{
+        "EN": "Meritocracy",
+        "CN": "贤能值",
+        "ES": "Meritocracia"
+    },
+    {
         "code": "local_colonial_growth",
-        "EN": "local colonial growth",
-        "CN": "本地殖民地发展",
-        "ES": ""
-    },{
+        "EN": "Local Colonial Growth",
+        "CN": "本地殖民增长",
+        "ES": "Crecimiento Colonial Local"
+    },
+    {
         "code": "local_production_efficiency",
-        "EN": "local production efficiency",
+        "EN": "Local Production Efficiency",
         "CN": "本地生产效率",
-        "ES": ""
-    },{
+        "ES": "Eficiencia de Producción Local"
+    },
+    {
         "code": "reelection_cost",
-        "EN": "reelection cost",
-        "CN": "重选花费",
-        "ES": ""
-    },{
+        "EN": "Reelection Cost",
+        "CN": "连任花费",
+        "ES": "Coste de Reelección"
+    },
+    {
         "code": "privateer_efficiency",
-        "EN": "privateer efficiency",
-        "CN": "海盗效率",
-        "ES": ""
-    },{
+        "EN": "Privateer Efficiency",
+        "CN": "私掠效率",
+        "ES": "Eficiencia de Corsarios"
+    },
+    {
         "code": "capture_ship_chance",
-        "EN": "capture ship chance",
+        "EN": "Capture Ship Chance",
         "CN": "俘获船只概率",
-        "ES": ""
-    },{
+        "ES": "Probabilidad de Capturar Barcos"
+    },
+    {
         "code": "free_city_imperial_authority",
-        "EN": "free city imperial authority",
+        "EN": "Free City Imperial Authority",
         "CN": "自由市帝国权威",
-        "ES": ""
-    },{
+        "ES": "Autoridad Imperial de Ciudad Libre"
+    },
+    {
         "code": "institution_growth",
-        "EN": "institution growth",
+        "EN": "Institution Growth",
         "CN": "思潮增长",
-        "ES": ""
-    },{
+        "ES": "Crecimiento de Instituciones"
+    },
+    {
         "code": "local_institution_spread",
-        "EN": "local institution spread",
+        "EN": "Local Institution Spread",
         "CN": "本地思潮传播",
-        "ES": ""
-    },{
+        "ES": "Propagación Local de Instituciones"
+    },
+    {
         "code": "local_build_time",
-        "EN": "local build time",
+        "EN": "Local Build Time",
         "CN": "本地建造时间",
-        "ES": ""
-    },{
+        "ES": "Tiempo de Construcción Local"
+    },
+    {
         "code": "artillery_cost",
-        "EN": "artillery cost",
+        "EN": "Artillery Cost",
         "CN": "炮兵花费",
-        "ES": ""
-    },{
+        "ES": "Coste de Artillería"
+    },
+    {
         "code": "local_own_coast_naval_combat_bonus",
-        "EN": "local own coast naval combat bonus",
-        "CN": "本地海域作战增益",
-        "ES": ""
-    },{
+        "EN": "Local Own Coast Naval Combat Bonus",
+        "CN": "本地海岸海战加成",
+        "ES": "Bonificación de Combate Naval en Costa Propia Local"
+    },
+    {
         "code": "ship_recruit_speed",
-        "EN": "ship_recruit_speed",
+        "EN": "Ship Recruit Speed",
         "CN": "船只招募速度",
-        "ES": ""
-    },{
+        "ES": "Velocidad de Reclutamiento de Barcos"
+    },
+    {
         "code": "allow_free_estate_privilege_revocation",
-        "EN": "allow free estate privilege revocation",
-        "CN": "无视忠诚取消阶级特权",
-        "ES": ""
-    },{
+        "EN": "Allow Free Estate Privilege Revocation",
+        "CN": "允许免费撤销阶层特权",
+        "ES": "Permitir Revocación Gratuita de Privilegios Estamentales"
+    },
+    {
         "code": "allowed_num_of_buildings",
-        "EN": "allowed num of buildings",
-        "CN": "最大建造数量",
-        "ES": ""
-    },{
+        "EN": "Allowed Number of Buildings",
+        "CN": "允许建筑数量",
+        "ES": "Número Permitido de Edificios"
+    },
+    {
         "code": "local_governing_cost",
-        "EN": "local governing cost",
+        "EN": "Local Governing Cost",
         "CN": "本地统治花费",
-        "ES": ""
-    },{
+        "ES": "Coste de Gobierno Local"
+    },
+    {
         "code": "global_monthly_devastation",
-        "EN": "global monthly devastation",
-        "CN": "全局每月荒废",
-        "ES": ""
-    },{
+        "EN": "Global Monthly Devastation",
+        "CN": "全局月度荒废度",
+        "ES": "Devastación Mensual Global"
+    },
+    {
         "code": "church_privilege_slots",
-        "EN": "church privilege slots",
-        "CN": "教士特权上限增加",
-        "ES": ""
-    },{
+        "EN": "Church Privilege Slots",
+        "CN": "教士特权槽位",
+        "ES": "Espacios de Privilegios Eclesiásticos"
+    },
+    {
         "code": "local_defender_dice_roll_bonus",
-        "EN": "local defender dice roll bonus",
-        "CN": "本地防御色子增益",
-        "ES": ""
-    },{
+        "EN": "Local Defender Dice Roll Bonus",
+        "CN": "本地防御方骰子加成",
+        "ES": "Bonificación de Tirada de Dados del Defensor Local"
+    },
+    {
         "code": "free_mil_policy",
-        "EN": "free mil policy",
+        "EN": "Free Military Policy",
         "CN": "免费军事政策",
-        "ES": ""
-    },{
+        "ES": "Política Militar Gratuita"
+    },
+    {
         "code": "harsh_treatment_cost",
-        "EN": "harsh treatment cost",
-        "CN": "镇压花费",
-        "ES": ""
-    },{
+        "EN": "Harsh Treatment Cost",
+        "CN": "残酷镇压花费",
+        "ES": "Coste de Tratamiento Severo"
+    },
+    {
         "code": "innovativeness_gain",
-        "EN": "innovativeness gain",
-        "CN": "革新获得",
-        "ES": ""
-    },{
+        "EN": "Innovativeness Gain",
+        "CN": "创新度获得",
+        "ES": "Ganancia de Innovación"
+    },
+    {
         "code": "same_religion_advisor_cost",
-        "EN": "same religion advisor cost",
-        "CN": "同宗顾问花费",
-        "ES": ""
-    },{
+        "EN": "Same Religion Advisor Cost",
+        "CN": "同宗教顾问花费",
+        "ES": "Coste de Asesores de la Misma Religión"
+    },
+    {
         "code": "trade_value_modifier",
-        "EN": "trade value modifier",
-        "CN": "",
-        "ES": ""
-    },{
+        "EN": "Trade Value Modifier",
+        "CN": "贸易价值修正",
+        "ES": "Modificador de Valor Comercial"
+    },
+    {
         "code": "local_friendly_movement_speed",
-        "EN": "local friendly movement speed",
+        "EN": "Local Friendly Movement Speed",
         "CN": "本地友军移动速度",
-        "ES": ""
-    },{
+        "ES": "Velocidad de Movimiento Aliado Local"
+    },
+    {
         "code": "great_project_upgrade_time",
-        "EN": "great project upgrade time",
+        "EN": "Great Project Upgrade Time",
         "CN": "奇观升级时间",
-        "ES": ""
-    },{
+        "ES": "Tiempo de Mejora de Proyecto Magno"
+    },
+    {
         "code": "garrison_damage",
-        "EN": "garrison damage",
+        "EN": "Garrison Damage",
         "CN": "驻军伤害",
-        "ES": ""
-    },{
+        "ES": "Daño de la Guarnición"
+    },
+    {
         "code": "local_fort_maintenance_modifier",
-        "EN": "local fort maintenance modifier",
-        "CN": "本地堡垒维护修正",
-        "ES": ""
-    },{
+        "EN": "Local Fort Maintenance Modifier",
+        "CN": "本地要塞维护费修正",
+        "ES": "Modificador de Mantenimiento de Fuerte Local"
+    },
+    {
         "code": "local_assault_fort_ability",
-        "EN": "local assault fort ability",
-        "CN": "本地堡垒突击能力",
-        "ES": ""
-    },{
+        "EN": "Local Assault Fort Ability",
+        "CN": "本地要塞突击能力",
+        "ES": "Capacidad de Asalto de Fuerte Local"
+    },
+    {
         "code": "monthly_persian_influence",
-        "EN": "monthly persian influence",
+        "EN": "Monthly Persian Influence",
         "CN": "月度波斯影响",
-        "ES": ""
-    },{
+        "ES": "Influencia Persa Mensual"
+    },
+    {
         "code": "center_of_trade_upgrade_cost",
-        "EN": "center of trade upgrade cost",
+        "EN": "Center of Trade Upgrade Cost",
         "CN": "贸易中心升级花费",
-        "ES": ""
-    },{
+        "ES": "Coste de Mejora de Centro Comercial"
+    },
+    {
         "code": "reduced_trade_penalty_on_non_main_tradenode",
-        "EN": "reduced trade penalty on non main tradenode",
-        "CN": "非本埠贸易惩罚减少",
-        "ES": ""
-    },{
+        "EN": "Reduced Trade Penalty on Non-Main Trade Node",
+        "CN": "非本埠贸易节点惩罚减少",
+        "ES": "Reducción de Penalización Comercial en Nodos No Principales"
+    },
+    {
         "code": "relation_with_heretics",
-        "EN": "relation with heretics",
-        "CN": "异教关系",
-        "ES": ""
-    },{
+        "EN": "Relation with Heretics",
+        "CN": "与异端的关系",
+        "ES": "Relación con Herejes"
+    },
+    {
         "code": "autonomy_change_time",
-        "EN": "autonomy change time",
-        "CN": "自治调节冷却",
-        "ES": ""
-    },{
+        "EN": "Autonomy Change Time",
+        "CN": "自治度变化时间",
+        "ES": "Tiempo de Cambio de Autonomía"
+    },
+    {
         "code": "all_estate_possible_privileges",
-        "EN": "all estate possible privileges",
-        "CN": "全阶级额外特权",
-        "ES": ""
-    },{
+        "EN": "All Estate Possible Privileges",
+        "CN": "全阶层额外特权",
+        "ES": "Todos los Privilegios Posibles de los Estamentos"
+    },
+    {
         "code": "dip_tech_cost_modifier",
-        "EN": "diplomatic techknowledge cost modifier",
+        "EN": "Diplomatic Technology Cost Modifier",
         "CN": "外交科技花费修正",
-        "ES": ""
-    },{
+        "ES": "Modificador de Coste de Tecnología Diplomática"
+    },
+    {
         "code": "manpower_in_true_faith_provinces",
-        "EN": "manpower in true faith provinces",
+        "EN": "Manpower in True Faith Provinces",
         "CN": "正信省份人力",
-        "ES": ""
-    },{
+        "ES": "Mano de Obra en Provincias de Fe Verdadera"
+    },
+    {
         "code": "local_ship_repair",
-        "EN": "local ship repair",
-        "CN": "本地船只修复",
-        "ES": ""
-    },{
+        "EN": "Local Ship Repair",
+        "CN": "本地船只维修",
+        "ES": "Reparación de Barcos Local"
+    },
+    {
         "code": "local_ship_cost",
-        "EN": "local ship cost",
+        "EN": "Local Ship Cost",
         "CN": "本地船只花费",
-        "ES": ""
-    },{
+        "ES": "Coste de Barcos Local"
+    },
+    {
         "code": "local_has_galleass",
-        "EN": "local has galleass",
-        "CN": "本地可以制造加塞莱战船",
-        "ES": ""
-    },{
+        "EN": "Local Has Galleass",
+        "CN": "本地可建造加莱赛战船",
+        "ES": "Local Puede Construir Galeaza"
+    },
+    {
         "code": "allowed_galleass_fraction",
-        "EN": "allowed galleass fraction",
-        "CN": "加塞莱战船比例",
-        "ES": ""
-    },{
+        "EN": "Allowed Galleass Fraction",
+        "CN": "允许的加莱赛战船比例",
+        "ES": "Fracción de Galeaza Permitida"
+    },
+    {
         "code": "has_galleass",
-        "EN": "has galleass",
-        "CN": "可以建造加塞莱战船",
-        "ES": ""
-    },{
+        "EN": "Has Galleass",
+        "CN": "可建造加莱赛战船",
+        "ES": "Tiene Galeaza"
+    },
+    {
         "code": "trade_company_investment_cost",
-        "EN": "trade company investment cost",
+        "EN": "Trade Company Investment Cost",
         "CN": "贸易公司投资花费",
-        "ES": ""
-    },{
+        "ES": "Coste de Inversión de Compañía Comercial"
+    },
+    {
         "code": "inflation_reduction",
-        "EN": "inflation reduction",
-        "CN": "通胀减少",
-        "ES": ""
-    },{
+        "EN": "Inflation Reduction",
+        "CN": "通货膨胀减少",
+        "ES": "Reducción de Inflación"
+    },
+    {
         "code": "monthly_gold_inflation_modifier",
-        "EN": "monthly gold inflation modifier",
-        "CN": "月度黄金通胀修正",
-        "ES": ""
-    },{
+        "EN": "Monthly Gold Inflation Modifier",
+        "CN": "月度黄金通货膨胀修正",
+        "ES": "Modificador de Inflación de Oro Mensual"
+    },
+    {
         "code": "gold_depletion_chance_modifier",
-        "EN": "gold depletion chance modifier",
-        "CN": "金矿坍塌修正",
-        "ES": ""
-    },{
+        "EN": "Gold Depletion Chance Modifier",
+        "CN": "金矿枯竭概率修正",
+        "ES": "Modificador de Probabilidad de Agotamiento de Oro"
+    },
+    {
         "code": "local_gold_depletion_chance_modifier",
-        "EN": "local gold depletion chance modifier",
-        "CN": "本地金矿坍塌修正",
-        "ES": ""
-    },{
+        "EN": "Local Gold Depletion Chance Modifier",
+        "CN": "本地金矿枯竭概率修正",
+        "ES": "Modificador de Probabilidad de Agotamiento de Oro Local"
+    },
+    {
         "code": "chance_to_inherit",
-        "EN": "chance to inherit",
+        "EN": "Chance to Inherit",
         "CN": "继承概率",
-        "ES": ""
-    },{
+        "ES": "Probabilidad de Heredar"
+    },
+    {
         "code": "years_to_integrate_personal_union",
-        "EN": "years to integrate personal_union",
-        "CN": "合并联统年份",
-        "ES": ""
-    },{
+        "EN": "Years to Integrate Personal Union",
+        "CN": "合并联合统治所需年数",
+        "ES": "Años para Integrar Unión Personal"
+    },
+    {
         "code": "ignore_coring_distance",
-        "EN": "ignore coring distance",
-        "CN": "无视枣核距离",
-        "ES": ""
-    },{
+        "EN": "Ignore Coring Distance",
+        "CN": "忽略核心化距离",
+        "ES": "Ignorar Distancia de Núcleo"
+    },
+    {
         "code": "blood_gain_modifier",
-        "EN": "blood gain modifier",
-        "CN": "",
-        "ES": ""
+        "EN": "Blood Gain Modifier",
+        "CN": "血脉值获得修正",
+        "ES": "Modificador de Ganancia de Sangre"
     }
 ]

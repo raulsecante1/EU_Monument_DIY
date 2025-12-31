@@ -1,0 +1,140 @@
+[
+    {
+        "code": "start",
+        "EN": "province it starts in",
+        "CN": "起始省份",
+        "ES": "provincia donde comienza"
+    },
+    {
+        "code": "date",
+        "EN": "date built in real life (so anything built during game time will be there if you start a game after that date)",
+        "CN": "现实建造日期（游戏开始时间晚于此日期的奇观将直接存在）",
+        "ES": "fecha de construcción real (cualquier monumento construido durante el tiempo del juego estará presente si comienzas una partida después de esa fecha)"
+    },
+    {
+        "code": "time",
+        "EN": "time to build",
+        "CN": "建造时间",
+        "ES": "tiempo de construcción"
+    },
+    {
+        "code": "build_cost",
+        "EN": "how much to build one",
+        "CN": "建造花费",
+        "ES": "costo de construcción"
+    },
+    {
+        "code": "can_be_moved",
+        "EN": "can we move it?",
+        "CN": "可以移动?",
+        "ES": "¿se puede mover?"
+    },
+    {
+        "code": "move_days_per_unit_distance",
+        "EN": "time to move the project one unit of distance, in days",
+        "CN": "移动奇观一个距离单位所需天数",
+        "ES": "tiempo para mover el proyecto una unidad de distancia, en días"
+    },
+    {
+        "code": "starting_tier",
+        "EN": "tier that the project starts at when first placed in the game (be that at game start or when built by a country as the game progresses)",
+        "CN": "奇观初次出现在游戏中的初始等级（无论是游戏开始时存在还是由国家在游戏进程中建造）",
+        "ES": "nivel en el que comienza el proyecto cuando se coloca por primera vez en el juego (ya sea al inicio del juego o cuando un país lo construye durante el juego)"
+    },
+    {
+        "code": "type",
+        "EN": "project type",
+        "CN": "奇观类型",
+        "ES": "tipo de proyecto"
+    },{
+        "code": "tier",
+        "EN": "tier",
+        "CN": "等级",
+        "ES": "nivel"
+    },{
+        "code": "province_modifiers",
+        "EN": "province modifiers",
+        "CN": "省份修正",
+        "ES": "modificadores provinciales"
+    },{
+        "code": "area_modifier",
+        "EN": "area modifiers",
+        "CN": "区域修正",
+        "ES": "modificadores de área"
+    },{
+        "code": "region_modifier",
+        "EN": "region modifiers",
+        "CN": "地区修正",
+        "ES": "modificadores de región"
+    },{
+        "code": "country_modifiers",
+        "EN": "country modifiers",
+        "CN": "国家修正",
+        "ES": "modificadores de país"
+    },{
+        "code": "upgrade_time",
+        "EN": "upgrade time",
+        "CN": "升级时间",
+        "ES": "tiempo de mejorar"
+    },{
+        "code": "cost_to_upgrade",
+        "EN": "cost to upgrade",
+        "CN": "升级成本",
+        "ES": "coste de mejorar"
+    },{
+        "code": "modifier_name",
+        "EN": "name",
+        "CN": "名称",
+        "ES": "Nombre"
+    },{
+        "code": "modifier_value",
+        "EN": "value",
+        "CN": "数值",
+        "ES": "Valorr"
+    },{
+        "code": "add_modifier",
+        "EN": "+ add modifier",
+        "CN": "+ 添加修正",
+        "ES": "+ añadir modificador"
+    },{
+        "code": "btn_set_start",
+        "EN": "Set province it starts in",
+        "CN": "修改起始省份",
+        "ES": "Modificer provincia donde comienza"
+    },{
+        "code": "btn_toggle_no_limit",
+        "EN": "Toggle No-Limit Tag(irreversible once generated the file, use with caution)",
+        "CN": "切换无限制标签(一经生成文件，不可撤销，谨慎使用)",
+        "ES": "Alternar Etiqueta de No Restrincción(irreversible una vez generado el fichero, usar con precaución)"
+    },{
+        "code": "btn_build_all",
+        "EN": "Generate File",
+        "CN": "生成文件",
+        "ES": "Generar fichero"
+    },{
+        "code": "btn_toggle_can_be_moved",
+        "EN": "Toggle Can Be Moved",
+        "CN": "切换可移动",
+        "ES": "Alternar movible"
+    },{
+        "code": "info_set_start",
+        "EN": "Enter province ID for all monuments:",
+        "CN": "输入省份ID",
+        "ES": "Introducir la ID de la provincia"
+    },{
+        "code": "info_finished_set_start",
+        "EN": "Start updated for all monuments.",
+        "CN": "省份修改完成",
+        "ES": "Actualizado la provincia de comienza"
+    },{
+        "code": "info_toggle_no_limit",
+        "EN": "no-limit tag for all monuments set to ",
+        "CN": "无限制标签切换为 ",
+        "ES": "Etiqueta de No Restrincción alteranada a "
+    },{
+        "code": "info_build_all",
+        "EN": "File generated",
+        "CN": "文件以生成",
+        "ES": "Fichero generado"
+    }
+]

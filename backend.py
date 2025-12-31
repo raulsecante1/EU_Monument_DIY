@@ -1,86 +1,7 @@
-ruta = r"./great_projects/01_monuments_copy.txt"
+ruta = r"./great_projects/01_monuments.txt"
 
 class Monument:
-    # def __init__(self, name, provence, built_date, build_time, build_cost, moveable, moveing_speed, 
-    #             starting_tier, monument_type, build_trigger, on_built, on_destroyed, 
-    #             can_use_modifiers_trigger, can_upgrade_trigger, keep_trigger, 
-    #             tier_0_upgradeTime, tier_0_costToUpgrade, tier_0_provinceModifiers, 
-    #             tier_0_areaModifiers, tier_0_countryModifiers, tier_0_onUpgraded, 
-    #             tier_1_upgradeTime, tier_1_costToUpgrade, tier_1_provinceModifiers, 
-    #             tier_1_areaModifiers, tier_1_countryModifiers, tier_1_onUpgraded, 
-    #             tier_2_upgradeTime, tier_2_costToUpgrade, tier_2_provinceModifiers, 
-    #             tier_2_areaModifiers, tier_2_countryModifiers, tier_2_onUpgraded, 
-    #             tier_3_upgradeTime, tier_3_costToUpgrade, tier_3_provinceModifiers, 
-    #             tier_3_areaModifiers, tier_3_countryModifiers, tier_3_onUpgraded):
-    #     '''
-    #     Args:
-    #         name(string): monument's name
-    #         provence(int): province code
-    #         built_date(string): yyy.01.01 or yyyy.01.01
-    #         build_time(int): time to build
-    #         build_cost(int): how much to build one
-    #         moveable(string): can we move it? (yes/no)
-    #         moveing_speed(int): time to move the project one unit of distance, in days
-    #         starting_tier(int): tier that the project starts at when first placed in the game (0/1/2/3)
-    #         monument_type(string): project type (monument)
-    #         build_trigger: can we build it?
-    #         on_built: what to do when it's built
-    #         on_destroyed: what to do when it's destroyed
-    #         can_use_modifiers_trigger: can our country use it?
-    #         can_upgrade_trigger: can our country upgrade it?
-    #         keep_trigger: can our country keep it or is it destroyed when we get hold of it?
-
-    #         tier_x_upgradeTime(int): Description
-    #         tier_x_costToUpgrade(int): Description
-    #         tier_x_yyyyModifiers(list): Description
-    #         tier_x_onUpgraded(list): Description
-    #     '''
-    #     self.name = name
-    #     self.start = provence
-    #     self.date = built_date
-    #     self.time = build_time  #block
-    #     self.build_cost = build_cost
-    #     self.can_be_moved = moveable
-    #     self.move_days_per_unit_distance = moveing_speed
-    #     self.starting_tier = starting_tier
-    #     self.type = monument_type
-    #     self.build_trigger = build_trigger  #block
-    #     self.on_built = on_built  #block
-    #     self.on_destroyed = on_destroyed  #block
-    #     self.can_use_modifiers_trigger = can_use_modifiers_trigger  #block
-    #     self.can_upgrade_trigger = can_upgrade_trigger  #block
-    #     self.keep_trigger = keep_trigger  #block
-
-    #     self.tier_0_upgrade_time = tier_0_upgradeTime
-    #     self.tier_0_cost_to_upgrade = tier_0_costToUpgrade
-    #     self.tier_0_province_modifiers = tier_0_provinceModifiers
-    #     self.tier_0_area_modifier = tier_0_areaModifiers
-    #     self.tier_0_country_modifiers = tier_0_countryModifiers
-    #     self.tier_0_on_upgraded = tier_0_onUpgraded
-
-    #     self.tier_1_upgrade_time = tier_1_upgradeTime
-    #     self.tier_1_cost_to_upgrade = tier_1_costToUpgrade
-    #     self.tier_1_province_modifiers = tier_1_provinceModifiers
-    #     self.tier_1_area_modifier = tier_1_areaModifiers
-    #     self.tier_1_country_modifiers = tier_1_countryModifiers
-    #     self.tier_1_on_upgraded = tier_1_onUpgraded
-
-    #     self.tier_2_upgrade_time = tier_2_upgradeTime
-    #     self.tier_2_cost_to_upgrade = tier_2_costToUpgrade
-    #     self.tier_2_province_modifiers = tier_2_provinceModifiers
-    #     self.tier_2_area_modifier = tier_2_areaModifiers
-    #     self.tier_2_country_modifiers = tier_2_countryModifiers
-    #     self.tier_2_on_upgraded = tier_2_onUpgraded
-
-    #     self.tier_3_upgrade_time = tier_3_upgradeTime
-    #     self.tier_3_cost_to_upgrade = tier_3_costToUpgrade
-    #     self.tier_3_province_modifiers = tier_3_provinceModifiers
-    #     self.tier_3_area_modifier = tier_3_areaModifiers
-    #     self.tier_3_country_modifiers = tier_3_countryModifiers
-    #     self.tier_3_on_upgraded = tier_3_onUpgraded
-
-
-    def __init__(self, name:str, data_dict:dict):
+    def __init__(self, name, data_list):
         '''
         Docstring for __init__
         Args:
@@ -108,48 +29,55 @@ class Monument:
         '''
         self.no_limit_tag = False
         self.name = name
-        self.start = data_dict["start"]
-        self.date = data_dict["date"]
-        self.time = data_dict["time"]["months"]
-        self.build_cost = data_dict["build_cost"]
-        self.can_be_moved = data_dict["can_be_moved"]
-        self.move_days_per_unit_distance = data_dict["move_days_per_unit_distance"]
-        self.starting_tier = data_dict["starting_tier"]
-        self.type = data_dict["type"]
-        self.build_trigger = data_dict["build_trigger"]
-        self.on_built = data_dict["on_built"]
-        self.on_destroyed = data_dict["on_destroyed"]
-        self.can_use_modifiers_trigger = data_dict["can_use_modifiers_trigger"]
-        self.can_upgrade_trigger = data_dict["can_upgrade_trigger"]
-        self.keep_trigger = data_dict["keep_trigger"]
+        self.start = self.get_node(data_list, "start")
+        self.date = self.get_node(data_list, "date")
+        self.time = self.get_node(self.get_node(data_list, "time"), "months")
+        self.build_cost = self.get_node(data_list, "build_cost")
+        self.can_be_moved = self.get_node(data_list, "can_be_moved")
+        self.move_days_per_unit_distance = self.get_node(data_list, "move_days_per_unit_distance")
+        self.starting_tier = self.get_node(data_list, "starting_tier")
+        self.type = self.get_node(data_list, "type")
+        self.build_trigger = self.get_node(data_list, "build_trigger")
 
-        self.tier_0_upgrade_time = data_dict["tier_0"]["upgrade_time"]
-        self.tier_0_cost_to_upgrade = data_dict["tier_0"]["cost_to_upgrade"]
-        self.tier_0_province_modifiers = data_dict["tier_0"]["province_modifiers"]
-        self.tier_0_area_modifier = data_dict["tier_0"]["area_modifier"]
-        self.tier_0_country_modifiers = data_dict["tier_0"]["country_modifiers"]
-        self.tier_0_on_upgraded = data_dict["tier_0"]["on_upgraded"]
+        #some of the monuments dont have the following blocks, and so if for region_modifier and country_modifiers, stupid donkey
+        self.on_built = self.ensure_block(data_list, "on_built")
+        self.on_destroyed = self.ensure_block(data_list, "on_destroyed")
+        
+        self.can_use_modifiers_trigger = self.get_node(data_list, "can_use_modifiers_trigger")
+        self.can_upgrade_trigger = self.get_node(data_list, "can_upgrade_trigger")
+        self.keep_trigger = self.get_node(data_list, "keep_trigger")
 
-        self.tier_1_upgrade_time = data_dict["tier_1"]["upgrade_time"]
-        self.tier_1_cost_to_upgrade = data_dict["tier_1"]["cost_to_upgrade"]
-        self.tier_1_province_modifiers = data_dict["tier_1"]["province_modifiers"]
-        self.tier_1_area_modifier = data_dict["tier_1"]["area_modifier"]
-        self.tier_1_country_modifiers = data_dict["tier_1"]["country_modifiers"]
-        self.tier_1_on_upgraded = data_dict["tier_1"]["on_upgraded"]
+        self.tier_0_upgrade_time = self.get_node(self.get_node(self.get_node(data_list, "tier_0"), "upgrade_time"), "months")
+        self.tier_0_cost_to_upgrade = self.get_node(self.get_node(self.get_node(data_list, "tier_0"), "cost_to_upgrade"), "factor")
+        self.tier_0_province_modifiers = self.get_node(self.get_node(data_list, "tier_0"), "province_modifiers")
+        self.tier_0_area_modifier = self.get_node(self.get_node(data_list, "tier_0"), "area_modifier")
+        self.tier_0_region_modifier = self.ensure_block(self.get_node(data_list, "tier_0"), "region_modifier")
+        self.tier_0_country_modifiers = self.ensure_block(self.get_node(data_list, "tier_0"), "country_modifiers")
+        self.tier_0_on_upgraded = self.ensure_block(self.get_node(data_list, "tier_0"), "on_upgraded")
 
-        self.tier_2_upgrade_time = data_dict["tier_2"]["upgrade_time"]
-        self.tier_2_cost_to_upgrade = data_dict["tier_2"]["cost_to_upgrade"]
-        self.tier_2_province_modifiers = data_dict["tier_2"]["province_modifiers"]
-        self.tier_2_area_modifier = data_dict["tier_2"]["area_modifier"]
-        self.tier_2_country_modifiers = data_dict["tier_2"]["country_modifiers"]
-        self.tier_2_on_upgraded = data_dict["tier_2"]["on_upgraded"]
+        self.tier_1_upgrade_time = self.get_node(self.get_node(self.get_node(data_list, "tier_1"), "upgrade_time"), "months")
+        self.tier_1_cost_to_upgrade = self.get_node(self.get_node(self.get_node(data_list, "tier_1"), "cost_to_upgrade"), "factor")
+        self.tier_1_province_modifiers = self.get_node(self.get_node(data_list, "tier_1"), "province_modifiers")
+        self.tier_1_area_modifier = self.get_node(self.get_node(data_list, "tier_1"), "area_modifier")
+        self.tier_1_region_modifier = self.ensure_block(self.get_node(data_list, "tier_1"), "region_modifier")
+        self.tier_1_country_modifiers = self.ensure_block(self.get_node(data_list, "tier_1"), "country_modifiers")
+        self.tier_1_on_upgraded = self.ensure_block(self.get_node(data_list, "tier_1"), "on_upgraded")
 
-        self.tier_3_upgrade_time = data_dict["tier_3"]["upgrade_time"]
-        self.tier_3_cost_to_upgrade = data_dict["tier_3"]["cost_to_upgrade"]
-        self.tier_3_province_modifiers = data_dict["tier_3"]["province_modifiers"]
-        self.tier_3_area_modifier = data_dict["tier_3"]["area_modifier"]
-        self.tier_3_country_modifiers = data_dict["tier_3"]["country_modifiers"]
-        self.tier_3_on_upgraded = data_dict["tier_3"]["on_upgraded"]
+        self.tier_2_upgrade_time = self.get_node(self.get_node(self.get_node(data_list, "tier_2"), "upgrade_time"), "months")
+        self.tier_2_cost_to_upgrade = self.get_node(self.get_node(self.get_node(data_list, "tier_2"), "cost_to_upgrade"), "factor")
+        self.tier_2_province_modifiers = self.get_node(self.get_node(data_list, "tier_2"), "province_modifiers")
+        self.tier_2_area_modifier = self.get_node(self.get_node(data_list, "tier_2"), "area_modifier")
+        self.tier_2_region_modifier = self.ensure_block(self.get_node(data_list, "tier_2"), "region_modifier")
+        self.tier_2_country_modifiers = self.ensure_block(self.get_node(data_list, "tier_2"), "country_modifiers")
+        self.tier_2_on_upgraded = self.ensure_block(self.get_node(data_list, "tier_2"), "on_upgraded")
+
+        self.tier_3_upgrade_time = self.get_node(self.get_node(self.get_node(data_list, "tier_3"), "upgrade_time"), "months")
+        self.tier_3_cost_to_upgrade = self.get_node(self.get_node(self.get_node(data_list, "tier_3"), "cost_to_upgrade"), "factor")
+        self.tier_3_province_modifiers = self.get_node(self.get_node(data_list, "tier_3"), "province_modifiers")
+        self.tier_3_area_modifier = self.get_node(self.get_node(data_list, "tier_3"), "area_modifier")
+        self.tier_3_region_modifier = self.ensure_block(self.get_node(data_list, "tier_3"), "region_modifier")
+        self.tier_3_country_modifiers = self.ensure_block(self.get_node(data_list, "tier_3"), "country_modifiers")
+        self.tier_3_on_upgraded = self.ensure_block(self.get_node(data_list, "tier_3"), "on_upgraded")
 
     
     def time_to_build_block(self, indent=1):
@@ -161,6 +89,8 @@ class Monument:
         block
         Args:
              indent(int): indentation
+        Returns:
+             block(string)
         '''
         tab = "\t" * (indent+1)
         tab_co = "\t" * indent
@@ -171,7 +101,7 @@ class Monument:
         return block
     
 
-    def build_trigger_block(self, current_dict, current_key="build_trigger", indent=1):
+    def build_trigger_block(self, current_node, current_key="build_trigger", indent=1):
         '''
         Rebuit the
         
@@ -181,32 +111,36 @@ class Monument:
         block
 
         Args:
-             current_dict(dict): the value for the key pair
+             current_node(list): the value for the key pair
              current_key(string): the key for the value pair
              indent(int): indentation
+        Returns:
+             block(string)
         '''
         tab = "\t" * indent
+        tab_pairs = "\t" * (indent+1)  # i should have used tab and tab_co, also the list/dict problem, build up a high-level structure 
+                                       # and work-flow next time before coding!!!!
         if self.no_limit_tag:
             block = (f"{tab}{current_key} = {{\n"
                      f"{tab}}}\n"
                     )
         else:
             lines = []
-            for key, value in current_dict.items():
-                if isinstance(value, dict):
-                    lines.append(f"{tab}{current_key} = {{")
+            lines.append(f"{tab}{current_key} = {{")
+            for key, value in current_node:
+                if isinstance(value, list):
                     lines.append(self.build_trigger_block(value, key, indent+1))
-                    lines.append(f"{tab}}}")
                 elif value == None:
                     continue
                 else:
-                    lines.append(f"{key} = {value}")
+                    lines.append(f"{tab_pairs}{key} = {value}")
+            lines.append(f"{tab}}}")
             block = "\n".join(lines) + "\n"
 
         return block
     
 
-    def on_built_block(self, current_dict, current_key="on_built", indent=1):
+    def on_built_block(self, current_node, current_key="on_built", indent=1):
         '''
         Rebuit the
         
@@ -216,27 +150,30 @@ class Monument:
         block
 
         Args:
-             current_dict(dict): the value for the key pair
+             current_node(list): the value for the key pair
              current_key(string): the key for the value pair
              indent(int): indentation
+        Returns:
+             block(string)
         '''
         tab = "\t" * indent
+        tab_pairs = "\t" * (indent+1)
         lines = []
-        for key, value in current_dict.items():
-            if isinstance(value, dict):
-                lines.append(f"{tab}{current_key} = {{")
+        lines.append(f"{tab}{current_key} = {{")
+        for key, value in current_node:
+            if isinstance(value, list):
                 lines.append(self.on_built_block(value, key, indent+1))
-                lines.append(f"{tab}}}")
             elif value == None:
-                continue            
+                continue
             else:
-                lines.append(f"{key} = {value}")
+                lines.append(f"{tab_pairs}{key} = {value}")
+        lines.append(f"{tab}}}")
         block = "\n".join(lines) + "\n"
 
         return block
     
 
-    def on_destroyed_block(self, current_dict, current_key="on_destroyed", indent=1):
+    def on_destroyed_block(self, current_node, current_key="on_destroyed", indent=1):
         '''
         Rebuit the
         
@@ -246,27 +183,30 @@ class Monument:
         block
 
         Args:
-             current_dict(dict): the value for the key pair
+             current_node(list): the value for the key pair
              current_key(string): the key for the value pair
              indent(int): indentation
+        Returns:
+             block(string)
         '''
         tab = "\t" * indent
+        tab_pairs = "\t" * (indent+1)
         lines = []
-        for key, value in current_dict.items():
-            if isinstance(value, dict):
-                lines.append(f"{tab}{current_key} = {{")
+        lines.append(f"{tab}{current_key} = {{")
+        for key, value in current_node:
+            if isinstance(value, list):
                 lines.append(self.on_destroyed_block(value, key, indent+1))
-                lines.append(f"{tab}}}")
             elif value == None:
-                continue   
+                continue
             else:
-                lines.append(f"{key} = {value}")
+                lines.append(f"{tab_pairs}{key} = {value}")
+        lines.append(f"{tab}}}")
         block = "\n".join(lines) + "\n"
 
         return block
     
 
-    def can_use_modifiers_trigger_block(self, current_dict, current_key="can_use_modifiers_trigger", indent=1):
+    def can_use_modifiers_trigger_block(self, current_node, current_key="can_use_modifiers_trigger", indent=1):
         '''
         Rebuit the
         
@@ -276,32 +216,35 @@ class Monument:
         block
 
         Args:
-             current_dict(dict): the value for the key pair
+             current_node(list): the value for the key pair
              current_key(string): the key for the value pair
              indent(int): indentation
+        Returns:
+             block(string)
         '''
         tab = "\t" * indent
+        tab_pairs = "\t" * (indent+1)
         if self.no_limit_tag:
             block = (f"{tab}{current_key} = {{\n"
                      f"{tab}}}\n"
                     )
         else:
             lines = []
-            for key, value in current_dict.items():
-                if isinstance(value, dict):
-                    lines.append(f"{tab}{current_key} = {{")
+            lines.append(f"{tab}{current_key} = {{")
+            for key, value in current_node:
+                if isinstance(value, list):
                     lines.append(self.can_use_modifiers_trigger_block(value, key, indent+1))
-                    lines.append(f"{tab}}}")
                 elif value == None:
                     continue
                 else:
-                    lines.append(f"{key} = {value}")
+                    lines.append(f"{tab_pairs}{key} = {value}")
+            lines.append(f"{tab}}}")
             block = "\n".join(lines) + "\n"
 
         return block
     
 
-    def can_upgrade_trigger_block(self, current_dict, current_key="can_upgrade_trigger", indent=1):
+    def can_upgrade_trigger_block(self, current_node, current_key="can_upgrade_trigger", indent=1):
         '''
         Rebuit the
         
@@ -311,32 +254,35 @@ class Monument:
         block
 
         Args:
-             current_dict(dict): the value for the key pair
+             current_node(list): the value for the key pair
              current_key(string): the key for the value pair
              indent(int): indentation
+        Returns:
+             block(string)
         '''
         tab = "\t" * indent
+        tab_pairs = "\t" * (indent+1)
         if self.no_limit_tag:
             block = (f"{tab}{current_key} = {{\n"
                      f"{tab}}}\n"
                     )
         else:
             lines = []
-            for key, value in current_dict.items():
-                if isinstance(value, dict):
-                    lines.append(f"{tab}{current_key} = {{")
+            lines.append(f"{tab}{current_key} = {{")
+            for key, value in current_node:
+                if isinstance(value, list):
                     lines.append(self.can_upgrade_trigger_block(value, key, indent+1))
-                    lines.append(f"{tab}}}")
                 elif value == None:
                     continue
                 else:
-                    lines.append(f"{key} = {value}")
+                    lines.append(f"{tab_pairs}{key} = {value}")
+            lines.append(f"{tab}}}")
             block = "\n".join(lines) + "\n"
 
         return block
     
 
-    def keep_trigger_block(self, current_dict, current_key="keep_trigger", indent=1):
+    def keep_trigger_block(self, current_node, current_key="keep_trigger", indent=1):
         '''
         Rebuit the
         
@@ -346,21 +292,24 @@ class Monument:
         block
 
         Args:
-             current_dict(dict): the value for the key pair
+             current_node(list): the value for the key pair
              current_key(string): the key for the value pair
              indent(int): indentation
+        Returns:
+             block(string)
         '''
         tab = "\t" * indent
+        tab_pairs = "\t" * (indent+1)
         lines = []
-        for key, value in current_dict.items():
-            if isinstance(value, dict):
-                lines.append(f"{tab}{current_key} = {{")
+        lines.append(f"{tab}{current_key} = {{")
+        for key, value in current_node:
+            if isinstance(value, list):
                 lines.append(self.keep_trigger_block(value, key, indent+1))
-                lines.append(f"{tab}}}")
             elif value == None:
-                continue   
+                continue
             else:
-                lines.append(f"{key} = {value}")
+                lines.append(f"{tab_pairs}{key} = {value}")
+        lines.append(f"{tab}}}")
         block = "\n".join(lines) + "\n"
 
         return block
@@ -368,27 +317,53 @@ class Monument:
 
     def tier_0_block(self):
         tier0 = Tiers("tier_0", self.tier_0_upgrade_time, self.tier_0_cost_to_upgrade, self.tier_0_province_modifiers, 
-                      self.tier_0_area_modifier, self.tier_0_country_modifiers, self.tier_0_on_upgraded)
+                      self.tier_0_area_modifier, self.tier_0_region_modifier, self.tier_0_country_modifiers, self.tier_0_on_upgraded)
         return tier0.build_up_tiers()
     
 
     def tier_1_block(self):
         tier1 = Tiers("tier_1", self.tier_1_upgrade_time, self.tier_1_cost_to_upgrade, self.tier_1_province_modifiers, 
-                      self.tier_1_area_modifier, self.tier_1_country_modifiers, self.tier_1_on_upgraded)
+                      self.tier_1_area_modifier, self.tier_1_region_modifier, self.tier_1_country_modifiers, self.tier_1_on_upgraded)
         return tier1.build_up_tiers()
     
 
     def tier_2_block(self):
         tier2 = Tiers("tier_2", self.tier_2_upgrade_time, self.tier_2_cost_to_upgrade, self.tier_2_province_modifiers, 
-                      self.tier_2_area_modifier, self.tier_2_country_modifiers, self.tier_2_on_upgraded)
+                      self.tier_2_area_modifier, self.tier_2_region_modifier, self.tier_2_country_modifiers, self.tier_2_on_upgraded)
         return tier2.build_up_tiers()
     
     
     def tier_3_block(self):
         tier3 = Tiers("tier_3", self.tier_3_upgrade_time, self.tier_3_cost_to_upgrade, self.tier_3_province_modifiers, 
-                      self.tier_3_area_modifier, self.tier_3_country_modifiers, self.tier_3_on_upgraded)
+                      self.tier_3_area_modifier, self.tier_3_region_modifier, self.tier_3_country_modifiers, self.tier_3_on_upgraded)
         return tier3.build_up_tiers()
     
+
+    def get_node(self, node, key):
+        '''
+        function used to access the node like list like dictionary
+        Args:
+             node(list): the node like list
+             key(str): the key of the value to access
+        '''
+        for k, v in node:
+            if k == key:
+                return v
+        return None
+    
+    def ensure_block(self, node, key):
+        '''
+        function to ensure every monument has a block of {key}
+        Args:
+             node(list): Description
+             key(str): the name of the block
+        '''
+        existing = self.get_node(node, key)
+        if existing is None:
+            new_block = []
+            node.append((key, new_block))
+            return new_block
+        return existing
 
     def build_up_the_whole(self, indent=0):
         tab = "\t" * (indent+1)
@@ -425,16 +400,16 @@ class Monument:
     
 
 class Tiers:
-    def __init__(self, tier, upgradeTime, costToUpgrade, provinceModifiers, areaModifiers, countryModifiers, onUpgraded):
+    def __init__(self, tier, upgradeTime, costToUpgrade, provinceModifiers, areaModifiers, regionModifiers, countryModifiers, onUpgraded):
         '''
         Docstring for __init__
         Args:
              tier(string): tier_0123
              upgradeTime(int): upgrade time in months
              costToUpgrade(int): build cost factor
-             provinceModifiers(dict): dictonary of buffs for province
-             areaModifiers(dict): dictonary of buffs for area
-             countryModifiers(dict): dictonary of buffs for country
+             provinceModifiers(list): list of buffs for province
+             areaModifiers(list): list of buffs for area
+             countryModifiers(list): list of buffs for country
              onUpgraded: Description
         '''
         self.tier = tier
@@ -442,6 +417,7 @@ class Tiers:
         self.cost_to_upgrade = costToUpgrade
         self.province_modifiers = provinceModifiers
         self.area_modifier = areaModifiers
+        self.region_modifier = regionModifiers
         self.country_modifiers = countryModifiers
         self.on_upgrade = onUpgraded
     
@@ -499,8 +475,9 @@ class Tiers:
         tab_co = "\t" * indent
         lines = []
         lines.append(f"{tab_co}province_modifiers = {{")
-        for buff_name, buff_value in self.province_modifiers.items():
-            lines.append(f"{tab}{buff_name} = {buff_value}")
+        for buff_name, buff_value in self.province_modifiers:
+            if buff_name != "" and buff_value != "":
+                lines.append(f"{tab}{buff_name} = {buff_value}")
         lines.append(f"{tab_co}}}")
 
         block = "\n".join(lines) + "\n"
@@ -523,8 +500,34 @@ class Tiers:
         tab_co = "\t" * indent
         lines = []
         lines.append(f"{tab_co}area_modifier = {{")
-        for buff_name, buff_value in self.area_modifier.items():
-            lines.append(f"{tab}{buff_name} = {buff_value}")
+        for buff_name, buff_value in self.area_modifier:
+            if buff_name != "" and buff_value != "":
+                lines.append(f"{tab}{buff_name} = {buff_value}")
+        lines.append(f"{tab_co}}}")
+
+        block = "\n".join(lines) + "\n"
+
+        return block
+    
+
+    def region_modifier_block(self, indent=2):
+        '''
+        Return the 
+                    regionModifiers = {
+                        buff1 = buff1_value
+                        ...
+                    }
+        format
+        Args:
+             indent(int): indentation
+        '''
+        tab = "\t" * (indent+1)
+        tab_co = "\t" * indent
+        lines = []
+        lines.append(f"{tab_co}region_modifier = {{")
+        for buff_name, buff_value in self.region_modifier:
+            if buff_name != "" and buff_value != "":
+                lines.append(f"{tab}{buff_name} = {buff_value}")
         lines.append(f"{tab_co}}}")
 
         block = "\n".join(lines) + "\n"
@@ -547,8 +550,9 @@ class Tiers:
         tab_co = "\t" * indent
         lines = []
         lines.append(f"{tab_co}country_modifiers = {{")
-        for buff_name, buff_value in self.country_modifiers.items():
-            lines.append(f"{tab}{buff_name} = {buff_value}")
+        for buff_name, buff_value in self.country_modifiers:
+            if buff_name != "" and buff_value != "":
+                lines.append(f"{tab}{buff_name} = {buff_value}")
         lines.append(f"{tab_co}}}")
 
         block = "\n".join(lines) + "\n"
@@ -556,18 +560,50 @@ class Tiers:
         return block
     
 
-    def on_upgrade_block(self, indent=2):
+    def on_upgrade_block(self, current_node, current_key="on_upgrade", indent=2):
         '''
         Return the 
                     on_upgraded = {
                         bonus1 = bonus1_value
                         ...
                     }
-        format
+        block
+
         Args:
+             current_node(list): the value for the key pair
+             current_key(string): the key for the value pair
              indent(int): indentation
+        Returns:
+             block(str)
         '''
-        return self.on_upgrade
+        tab = "\t" * indent
+        tab_pairs = "\t" * (indent+1)
+        lines = []
+        lines.append(f"{tab}{current_key} = {{")
+        for key, value in current_node:
+            if isinstance(value, list):
+                lines.append(self.on_upgrade_block(value, key, indent+1))
+            elif value == None:
+                continue
+            else:
+                lines.append(f"{tab_pairs}{key} = {value}")
+        lines.append(f"{tab}}}")
+        block = "\n".join(lines) + "\n"
+
+        return block
+    
+
+    def get_node(self, node, key):
+        '''
+        function used to access the node like list like dictionary
+        Args:
+             node(list): the node like list
+             key(str): the key of the value to access
+        '''
+        for k, v in node:
+            if k == key:
+                return v
+        return None
     
 
     def build_up_tiers(self, indent=1):
@@ -578,8 +614,9 @@ class Tiers:
         lines.append(self.cost_to_upgrade_block())
         lines.append(self.province_modifiers_block())
         lines.append(self.area_modifier_block())
+        lines.append(self.region_modifier_block())
         lines.append(self.country_modifiers_block())
-        lines.append(self.on_upgrade_block())
+        lines.append(self.on_upgrade_block(self.on_upgrade))
 
         lines.append(f"{tab}}}")
 
@@ -594,18 +631,18 @@ def parse_paradox(lines):
     Args:
          lines: the lines at the file
     '''
-    stack = [{}]
+    stack = [[]]
 
     for raw in lines:
-        line = raw.strip()
+        line = raw.split("#", 1)[0].strip()
 
         if not line:
             continue
 
         if line.endswith("{"):
             key = line[:-1].split("=")[0].strip()
-            new_block = {}
-            stack[-1][key] = new_block
+            new_block = []
+            stack[-1].append((key, new_block))
             stack.append(new_block)
 
         elif line == "}":
@@ -613,7 +650,20 @@ def parse_paradox(lines):
 
         elif "=" in line:
             key, value = map(str.strip, line.split("=", 1))
-            stack[-1][key] = value
+            
+            if value.startswith("{") and value.endswith("}"):
+                inner = value[1:-1].strip()
+
+                if inner:
+                    inner_lines = [inner]
+                    parsed = parse_paradox(inner_lines)
+                else:
+                    parsed = []
+
+                stack[-1].append((key, parsed))
+
+            else:
+                stack[-1].append((key, value))
 
     return stack[0]
 
@@ -624,19 +674,37 @@ def read_monuments(path = ruta):
     function that reads the file of monuments
     Args:
          path(string): path to the files
+    Returns:
+         monument_list(list): list of all the monument class nodes
     '''
     with open(path, "r") as fl:
         datas = parse_paradox(fl)
     
     monument_dict = {}
-    monument_index = 0
 
-    for monument_name, monument_data in datas.items():
-        monument_dict[monument_index] = Monument(monument_name, monument_data)
+    for monument in datas:
+        monument_dict[monument[0]] = Monument(monument[0], monument[1])
 
-    monument_dict[0].name = "ikkk"
-    res = monument_dict[0].build_up_the_whole()
+    return monument_dict
 
+
+def output(monument_data, path = ruta):
+    with open(path, "w") as fl:
+        for monument_elem in monument_data:
+            #print(monument_elem)
+            content = monument_data[monument_elem].build_up_the_whole()
+            fl.write(content + "\n")
+    
+
+
+def test():
+    data = read_monuments()
+    data["hagia_sophia"].name = "dasd"
+    data["hagia_sophia"].tier_3_country_modifiers = [("sads", 0.1)]
+
+    res = data["amsterdam_bourse"].build_up_the_whole()
+    #print(data["amsterdam_bourse"].tier_2_region_modifier)
     print(res)
 
-read_monuments()
+#test()
+

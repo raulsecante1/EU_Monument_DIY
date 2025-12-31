@@ -168,7 +168,7 @@
         "ES": "Catedral de Colonia"
     },
     {
-        "relative_path": "great_project_divrigi.dds",
+        "relative_path": "great_project_divrigi_hospital_mosque.dds",
         "EN": "Divriği",
         "CN": "迪夫里伊大清真寺和医院",
         "ES": "Divriği"
@@ -198,16 +198,16 @@
         "ES": "Pólderes Holandeses"
     },
     {
-        "relative_path": "great_project_easter_island_statues.dds",
+        "relative_path": "great_project_moai.dds",
         "EN": "Easter Island Statues",
         "CN": "复活节岛石像",
         "ES": "Estatuas de la Isla de Pascua"
     },
     {
-        "relative_path": "great_project_Edinburgh.dds",
-        "EN": "Edinburgh",
-        "CN": "爱丁堡",
-        "ES": "Edimburgo"
+        "relative_path": "great_project_edinburgh_castle.dds",
+        "EN": "edinburgh castle",
+        "CN": "爱丁堡城堡",
+        "ES": "Castillo de Edimburgo"
     },
     {
         "relative_path": "great_project_ellora_caves.dds",
@@ -282,10 +282,25 @@
         "ES": "Estatua de Gomateshwara"
     },
     {
-        "relative_path": "great_project_grand_canal.dds",
-        "EN": "Grand Canal",
-        "CN": "大运河",
-        "ES": "Gran Canal"
+        "relative_path": "great_project_grand_canal_1.dds",
+        "EN": "Grand Canal (HangZhou)",
+        "CN": "京杭大运河杭州段",
+        "ES": "Gran Canal (HangZhou)"
+    },{
+        "relative_path": "great_project_grand_canal_2.dds",
+        "EN": "Grand Canal (SuZhou)",
+        "CN": "京杭大运河苏州段",
+        "ES": "Gran Canal (SuZhou)"
+    },{
+        "relative_path": "great_project_grand_canal_3.dds",
+        "EN": "Grand Canal (ZheJiang)",
+        "CN": "京杭大运河浙江段",
+        "ES": "Gran Canal (ZheJiang)"
+    },{
+        "relative_path": "great_project_grand_canal_4.dds",
+        "EN": "Grand Canal (Nanjing)",
+        "CN": "京杭大运河南京段",
+        "ES": "Gran Canal (Nanjing)"
     },
     {
         "relative_path": "great_project_great_mosque_djenne.dds",
@@ -432,10 +447,10 @@
         "ES": "Kronborg"
     },
     {
-        "relative_path": "great_project_Kyoto.dds",
-        "EN": "Kyoto",
-        "CN": "京都",
-        "ES": "Kioto"
+        "relative_path": "great_project_imperial_city_kyoto.dds",
+        "EN": "imperial city kyoto",
+        "CN": "京都皇居",
+        "ES": "Ciudad Imperial de Kioto"
     },
     {
         "relative_path": "great_project_machu_picchu.dds",
@@ -516,7 +531,7 @@
         "ES": "Fuerte de Nizwa"
     },
     {
-        "relative_path": "great_project_notre_dame.dds",
+        "relative_path": "great_project_notre_dame_cathedral.dds",
         "EN": "Notre-Dame",
         "CN": "巴黎圣母院",
         "ES": "Notre Dame"
@@ -528,33 +543,21 @@
         "ES": "Partenón"
     },
     {
-        "relative_path": "great_project_pena_palace.dds",
-        "EN": "Pena Palace",
-        "CN": "佩纳宫",
-        "ES": "Palacio da Pena"
-    },
-    {
         "relative_path": "great_project_petra.dds",
         "EN": "Petra",
         "CN": "佩特拉",
         "ES": "Petra"
     },
     {
-        "relative_path": "great_project_place_holder.dds",
-        "EN": "Place Holder",
-        "CN": "占位符",
-        "ES": "Marcador de posición"
-    },
-    {
-        "relative_path": "great_project_PopePalace.dds",
-        "EN": "Pope's Palace",
-        "CN": "教皇宫",
-        "ES": "Palacio Papal"
+        "relative_path": "great_project_palace_of_the_popes.dds",
+        "EN": "Pope's Palace in Avignon",
+        "CN": "阿维尼翁教皇宫",
+        "ES": "Palacio Papal de Aviñón"
     },
     {
         "relative_path": "great_project_porcelain_tower_nanjing.dds",
         "EN": "Porcelain Tower of Nanjing",
-        "CN": "南京琉璃塔",
+        "CN": "大报恩寺",
         "ES": "Torre de Porcelana de Nanjing"
     },
     {
@@ -612,10 +615,10 @@
         "ES": "Palacio Real de Caserta"
     },
     {
-        "relative_path": "great_project_saint_peters_cathedral.dds",
-        "EN": "St. Peter's Cathedral",
+        "relative_path": "great_project_stpeters_cathedral.dds",
+        "EN": "St. Peter's Basilica",
         "CN": "圣彼得大教堂",
-        "ES": "Catedral de San Pedro"
+        "ES": "Basílica de San Pedro"
     },
     {
         "relative_path": "great_project_salvador_da_bahia.dds",
@@ -672,22 +675,16 @@
         "ES": "Minarete en Espiral de Samarra"
     },
     {
-        "relative_path": "great_project_StBasil_cathedral.dds",
+        "relative_path": "great_project_st_basil_cathedral.dds",
         "EN": "St. Basil's Cathedral",
         "CN": "圣瓦西里主教座堂",
         "ES": "Catedral de San Basilio"
     },
     {
-        "relative_path": "great_project_stone_henge.dds",
+        "relative_path": "great_project_stonehenge.dds",
         "EN": "Stonehenge",
         "CN": "巨石阵",
         "ES": "Stonehenge"
-    },
-    {
-        "relative_path": "great_project_suez_canal.dds",
-        "EN": "Suez Canal",
-        "CN": "苏伊士运河",
-        "ES": "Canal de Suez"
     },
     {
         "relative_path": "great_project_sultan_ahmed_mosque.dds",
@@ -738,7 +735,7 @@
         "ES": "Gran Muralla China"
     },
     {
-        "relative_path": "great_project_the_kremlin.dds",
+        "relative_path": "great_project_kremlin.dds",
         "EN": "The Kremlin",
         "CN": "克里姆林宫",
         "ES": "Kremlin"
@@ -780,7 +777,7 @@
         "ES": "Tzintzuntzan"
     },
     {
-        "relative_path": "great_project_ulm_minster.dds",
+        "relative_path": "great_project_ulm_minster_great_project.dds",
         "EN": "Ulm Minster",
         "CN": "乌尔姆大教堂",
         "ES": "Catedral de Ulm"
@@ -808,12 +805,6 @@
         "EN": "Walls of Benin",
         "CN": "贝宁城墙",
         "ES": "Murallas de Benín"
-    },
-    {
-        "relative_path": "great_project_walls_benin2.dds",
-        "EN": "Walls of Benin (2)",
-        "CN": "贝宁城墙 (2)",
-        "ES": "Murallas de Benín (2)"
     },
     {
         "relative_path": "great_project_white_house.dds",
